@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.5 on linux)" generated="20180731 15:50:43.698">
+<suite id="s1" name="Requests" source="/home/ralph/environments/RobotFramework/restframework_automation/cases/requests.robot">
+<test id="s1-t1" name="Get request successful">
+<kw name="Given a url &quot;http://localhost:8000/v1/diff/6/&quot;" library="given">
+<doc>GET: The url model is: http://{IP_REST_SERVER:{PORT}}/v1/diff/{ID}/</doc>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.828" level="INFO">${test_url} = http://localhost:8000/v1/diff/6/</msg>
+<status status="PASS" starttime="20180731 15:50:43.827" endtime="20180731 15:50:43.828"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.827" endtime="20180731 15:50:43.828"></status>
+</kw>
+<kw name="When user gets request from url" library="when">
+<kw name="Get Request" library="configuration">
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.832" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:43.838" level="DEBUG">http://localhost:8000 "GET /v1/diff/6/ HTTP/1.1" 200 81</msg>
+<msg timestamp="20180731 15:50:43.840" level="INFO">The get request was successful: {'diffblock': 'true', 'equal_content': 'false', 'equal_size': 'false', 'id': '6'}</msg>
+<msg timestamp="20180731 15:50:43.841" level="INFO">${result} = 200</msg>
+<status status="PASS" starttime="20180731 15:50:43.829" endtime="20180731 15:50:43.841"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>${200}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.841" level="DEBUG">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'int'&gt;</msg>
+<status status="PASS" starttime="20180731 15:50:43.841" endtime="20180731 15:50:43.842"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>logfile.txt</arg>
+<arg>The get request was successful</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.842" level="INFO" html="yes">Created file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20180731 15:50:43.842" endtime="20180731 15:50:43.842"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.829" endtime="20180731 15:50:43.843"></status>
+</kw>
+<kw name="Then message &quot;The get request was successful&quot; should have been written to log-file" library="then">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.844" level="INFO" html="yes">Getting file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:43.844" level="INFO">${text} = The get request was successful</msg>
+<status status="PASS" starttime="20180731 15:50:43.843" endtime="20180731 15:50:43.844"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>${msg}</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:43.844" endtime="20180731 15:50:43.845"></status>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>${msg}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${txt}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.845" level="INFO" html="yes">Reading file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:43.846" level="INFO">1 out of 1 lines matched</msg>
+<msg timestamp="20180731 15:50:43.846" level="INFO">${txt} = The get request was successful</msg>
+<status status="PASS" starttime="20180731 15:50:43.845" endtime="20180731 15:50:43.846"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${txt}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.846" level="INFO">The get request was successful</msg>
+<status status="PASS" starttime="20180731 15:50:43.846" endtime="20180731 15:50:43.846"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.843" endtime="20180731 15:50:43.847"></status>
+</kw>
+<doc>This test case validates the get method be successful</doc>
+<tags>
+<tag>GET</tag>
+</tags>
+<status status="PASS" starttime="20180731 15:50:43.826" endtime="20180731 15:50:43.847" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Get request invalid url">
+<kw name="Given a url &quot;http://localhost:8000/v1/dif&quot;" library="given">
+<doc>GET: The url model is: http://{IP_REST_SERVER:{PORT}}/v1/diff/{ID}/</doc>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.849" level="INFO">${test_url} = http://localhost:8000/v1/dif</msg>
+<status status="PASS" starttime="20180731 15:50:43.848" endtime="20180731 15:50:43.849"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.848" endtime="20180731 15:50:43.849"></status>
+</kw>
+<kw name="When user gets request from a invalid url" library="when">
+<kw name="Get Request" library="configuration">
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.852" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:43.861" level="DEBUG">http://localhost:8000 "GET /v1/dif HTTP/1.1" 404 2072</msg>
+<msg timestamp="20180731 15:50:43.862" level="INFO">Checks the url name is valid</msg>
+<msg timestamp="20180731 15:50:43.862" level="INFO">${result} = 404</msg>
+<status status="PASS" starttime="20180731 15:50:43.850" endtime="20180731 15:50:43.862"></status>
+</kw>
+<kw name="Should Not Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are equal.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>${200}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.863" level="DEBUG">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'int'&gt;</msg>
+<status status="PASS" starttime="20180731 15:50:43.863" endtime="20180731 15:50:43.864"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>logfile.txt</arg>
+<arg>Checks the url name is valid</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.865" level="INFO" html="yes">Created file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20180731 15:50:43.864" endtime="20180731 15:50:43.865"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.849" endtime="20180731 15:50:43.866"></status>
+</kw>
+<kw name="Then message &quot;Checks the url name is valid&quot; should have been written to log-file" library="then">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.867" level="INFO" html="yes">Getting file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:43.867" level="INFO">${text} = Checks the url name is valid</msg>
+<status status="PASS" starttime="20180731 15:50:43.867" endtime="20180731 15:50:43.867"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>${msg}</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:43.868" endtime="20180731 15:50:43.868"></status>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>${msg}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${txt}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.869" level="INFO" html="yes">Reading file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:43.869" level="INFO">1 out of 1 lines matched</msg>
+<msg timestamp="20180731 15:50:43.869" level="INFO">${txt} = Checks the url name is valid</msg>
+<status status="PASS" starttime="20180731 15:50:43.868" endtime="20180731 15:50:43.869"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${txt}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.870" level="INFO">Checks the url name is valid</msg>
+<status status="PASS" starttime="20180731 15:50:43.870" endtime="20180731 15:50:43.870"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.866" endtime="20180731 15:50:43.870"></status>
+</kw>
+<doc>This test case validates the behavior when uses a invalid url</doc>
+<tags>
+<tag>GET</tag>
+</tags>
+<status status="PASS" starttime="20180731 15:50:43.847" endtime="20180731 15:50:43.871" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Get request when do not exist documents">
+<kw name="Given a url &quot;http://localhost:8000/v1/diff/78/&quot;" library="given">
+<doc>GET: The url model is: http://{IP_REST_SERVER:{PORT}}/v1/diff/{ID}/</doc>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.874" level="INFO">${test_url} = http://localhost:8000/v1/diff/78/</msg>
+<status status="PASS" starttime="20180731 15:50:43.873" endtime="20180731 15:50:43.874"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.873" endtime="20180731 15:50:43.874"></status>
+</kw>
+<kw name="When user gets request from url without documents on the servers" library="when">
+<kw name="Get Request" library="configuration">
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.877" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:43.882" level="DEBUG">http://localhost:8000 "GET /v1/diff/78/ HTTP/1.1" 200 81</msg>
+<msg timestamp="20180731 15:50:43.883" level="INFO">Unable compare the documents</msg>
+<msg timestamp="20180731 15:50:43.883" level="INFO">${result} = {'FileError': 'Unable to process the documents. File not found on right server.'}</msg>
+<status status="PASS" starttime="20180731 15:50:43.875" endtime="20180731 15:50:43.883"></status>
+</kw>
+<kw name="Dictionary Should Contain Key" library="Collections">
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>FileError</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:43.883" endtime="20180731 15:50:43.883"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>logfile.txt</arg>
+<arg>Unable compare the documents</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.884" level="INFO" html="yes">Created file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20180731 15:50:43.884" endtime="20180731 15:50:43.884"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.875" endtime="20180731 15:50:43.885"></status>
+</kw>
+<kw name="Then message &quot;Unable compare the documents&quot; should have been written to log-file" library="then">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.886" level="INFO" html="yes">Getting file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:43.887" level="INFO">${text} = Unable compare the documents</msg>
+<status status="PASS" starttime="20180731 15:50:43.886" endtime="20180731 15:50:43.887"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>${msg}</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:43.887" endtime="20180731 15:50:43.888"></status>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>${msg}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${txt}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.890" level="INFO" html="yes">Reading file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:43.891" level="INFO">1 out of 1 lines matched</msg>
+<msg timestamp="20180731 15:50:43.891" level="INFO">${txt} = Unable compare the documents</msg>
+<status status="PASS" starttime="20180731 15:50:43.889" endtime="20180731 15:50:43.891"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${txt}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.892" level="INFO">Unable compare the documents</msg>
+<status status="PASS" starttime="20180731 15:50:43.891" endtime="20180731 15:50:43.892"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.885" endtime="20180731 15:50:43.892"></status>
+</kw>
+<doc>This test case validates the behavior (GET) when not exist documents in the servers</doc>
+<tags>
+<tag>GET</tag>
+</tags>
+<status status="PASS" starttime="20180731 15:50:43.871" endtime="20180731 15:50:43.892" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Post request successful">
+<kw name="Given a url &quot;http://localhost:8000/v1/diff/7/left/&quot;" library="given">
+<doc>GET: The url model is: http://{IP_REST_SERVER:{PORT}}/v1/diff/{ID}/</doc>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.895" level="INFO">${test_url} = http://localhost:8000/v1/diff/7/left/</msg>
+<status status="PASS" starttime="20180731 15:50:43.894" endtime="20180731 15:50:43.895"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.894" endtime="20180731 15:50:43.895"></status>
+</kw>
+<kw name="And a json url &quot;{&quot;data&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJtZXNzYWdlIjoia2FrYXJvdG8ifQ.y9pMhKSRFu9YIc1pxLktUytbg5kk5yJylosXl5erJw0&quot;}&quot;" library="given">
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${json_data}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.896" level="INFO">${json_data} = {"data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJtZXNzYWdlIjoia2FrYXJvdG8ifQ.y9pMhKSRFu9YIc1pxLktUytbg5kk5yJylosXl5erJw0"}</msg>
+<status status="PASS" starttime="20180731 15:50:43.896" endtime="20180731 15:50:43.897"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.895" endtime="20180731 15:50:43.897"></status>
+</kw>
+<kw name="When user posts request from url" library="when">
+<kw name="Post Request" library="configuration">
+<arguments>
+<arg>${test_url}</arg>
+<arg>${json_data}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.900" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:43.970" level="DEBUG">http://localhost:8000 "POST /v1/diff/7/left/ HTTP/1.1" 200 62</msg>
+<msg timestamp="20180731 15:50:43.972" level="INFO">The post request was successful: {'message': 'Document created', 'endpoint': 'left', 'id': '7'}</msg>
+<msg timestamp="20180731 15:50:43.972" level="INFO">${result} = 200</msg>
+<status status="PASS" starttime="20180731 15:50:43.898" endtime="20180731 15:50:43.973"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>${200}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.974" level="DEBUG">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'int'&gt;</msg>
+<status status="PASS" starttime="20180731 15:50:43.973" endtime="20180731 15:50:43.974"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>logfile.txt</arg>
+<arg>The post request was successful</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.975" level="INFO" html="yes">Created file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20180731 15:50:43.975" endtime="20180731 15:50:43.975"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.897" endtime="20180731 15:50:43.976"></status>
+</kw>
+<kw name="Then message &quot;The post request was successful&quot; should have been written to log-file" library="then">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.977" level="INFO" html="yes">Getting file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:43.977" level="INFO">${text} = The post request was successful</msg>
+<status status="PASS" starttime="20180731 15:50:43.976" endtime="20180731 15:50:43.977"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>${msg}</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:43.977" endtime="20180731 15:50:43.978"></status>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>${msg}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${txt}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.978" level="INFO" html="yes">Reading file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:43.979" level="INFO">1 out of 1 lines matched</msg>
+<msg timestamp="20180731 15:50:43.979" level="INFO">${txt} = The post request was successful</msg>
+<status status="PASS" starttime="20180731 15:50:43.978" endtime="20180731 15:50:43.979"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${txt}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.979" level="INFO">The post request was successful</msg>
+<status status="PASS" starttime="20180731 15:50:43.979" endtime="20180731 15:50:43.979"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.976" endtime="20180731 15:50:43.980"></status>
+</kw>
+<doc>This test case validates the post method be successful</doc>
+<tags>
+<tag>POST</tag>
+</tags>
+<status status="PASS" starttime="20180731 15:50:43.893" endtime="20180731 15:50:43.980" critical="yes"></status>
+</test>
+<test id="s1-t5" name="Post request invalid key">
+<kw name="Given a url &quot;http://localhost:8000/v1/diff/7/left/&quot;" library="given">
+<doc>GET: The url model is: http://{IP_REST_SERVER:{PORT}}/v1/diff/{ID}/</doc>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.987" level="INFO">${test_url} = http://localhost:8000/v1/diff/7/left/</msg>
+<status status="PASS" starttime="20180731 15:50:43.986" endtime="20180731 15:50:43.987"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.985" endtime="20180731 15:50:43.987"></status>
+</kw>
+<kw name="And a json url &quot;{&quot;data&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsbWFvIjoia2FrYXJvdG8ifQ.PzKS7swGuNH50CCEBqfwQ-ktPSjI5JQ91zeiAgCju6I&quot;}&quot;" library="given">
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${json_data}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:43.989" level="INFO">${json_data} = {"data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsbWFvIjoia2FrYXJvdG8ifQ.PzKS7swGuNH50CCEBqfwQ-ktPSjI5JQ91zeiAgCju6I"}</msg>
+<status status="PASS" starttime="20180731 15:50:43.988" endtime="20180731 15:50:43.989"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.988" endtime="20180731 15:50:43.989"></status>
+</kw>
+<kw name="When user posts request when json key not exist" library="when">
+<kw name="Post Request" library="configuration">
+<arguments>
+<arg>${test_url}</arg>
+<arg>${json_data}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20180731 15:50:43.994" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:43.996" level="DEBUG">http://localhost:8000 "POST /v1/diff/7/left/ HTTP/1.1" 200 73</msg>
+<msg timestamp="20180731 15:50:43.998" level="INFO">Checks the data contains the key 'message'</msg>
+<msg timestamp="20180731 15:50:43.998" level="INFO">${result} = {'KeyError': "key name 'message' not exist, unable to process document."}</msg>
+<status status="PASS" starttime="20180731 15:50:43.991" endtime="20180731 15:50:43.998"></status>
+</kw>
+<kw name="Dictionary Should Contain Key" library="Collections">
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>KeyError</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:43.998" endtime="20180731 15:50:43.999"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>logfile.txt</arg>
+<arg>Checks the data contains the key 'message'</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.000" level="INFO" html="yes">Created file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20180731 15:50:43.999" endtime="20180731 15:50:44.000"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:43.990" endtime="20180731 15:50:44.000"></status>
+</kw>
+<kw name="Then message &quot;Checks the data contains the key 'message'&quot; should have been written to log-file" library="then">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.002" level="INFO" html="yes">Getting file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.003" level="INFO">${text} = Checks the data contains the key 'message'</msg>
+<status status="PASS" starttime="20180731 15:50:44.002" endtime="20180731 15:50:44.003"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>${msg}</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:44.003" endtime="20180731 15:50:44.004"></status>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>${msg}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${txt}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.006" level="INFO" html="yes">Reading file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.007" level="INFO">1 out of 1 lines matched</msg>
+<msg timestamp="20180731 15:50:44.008" level="INFO">${txt} = Checks the data contains the key 'message'</msg>
+<status status="PASS" starttime="20180731 15:50:44.005" endtime="20180731 15:50:44.008"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${txt}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.009" level="INFO">Checks the data contains the key 'message'</msg>
+<status status="PASS" starttime="20180731 15:50:44.009" endtime="20180731 15:50:44.009"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.001" endtime="20180731 15:50:44.009"></status>
+</kw>
+<doc>This test validates the behavior when a data contains a invalid key</doc>
+<tags>
+<tag>POST</tag>
+</tags>
+<status status="PASS" starttime="20180731 15:50:43.980" endtime="20180731 15:50:44.010" critical="yes"></status>
+</test>
+<test id="s1-t6" name="Invalid data">
+<kw name="Given a url &quot;http://localhost:8000/v1/diff/5/left/&quot;" library="given">
+<doc>GET: The url model is: http://{IP_REST_SERVER:{PORT}}/v1/diff/{ID}/</doc>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.013" level="INFO">${test_url} = http://localhost:8000/v1/diff/5/left/</msg>
+<status status="PASS" starttime="20180731 15:50:44.012" endtime="20180731 15:50:44.013"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.012" endtime="20180731 15:50:44.013"></status>
+</kw>
+<kw name="And a json url &quot;{&quot;data&quot;:&quot;dfguhdguehudhgudhgudhkghdfkguhdkuadshaygdtaegdyasgdytasdfeytagvdyuaeg376567trg4fywfvbsjf&quot;}&quot;" library="given">
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${json_data}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.015" level="INFO">${json_data} = {"data":"dfguhdguehudhgudhgudhkghdfkguhdkuadshaygdtaegdyasgdytasdfeytagvdyuaeg376567trg4fywfvbsjf"}</msg>
+<status status="PASS" starttime="20180731 15:50:44.015" endtime="20180731 15:50:44.015"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.014" endtime="20180731 15:50:44.015"></status>
+</kw>
+<kw name="When user validates the json key value" library="when">
+<kw name="Post Request" library="configuration">
+<arguments>
+<arg>${test_url}</arg>
+<arg>${json_data}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.018" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:44.023" level="DEBUG">http://localhost:8000 "POST /v1/diff/5/left/ HTTP/1.1" 200 49</msg>
+<msg timestamp="20180731 15:50:44.024" level="INFO">The encoded token could not be verified</msg>
+<msg timestamp="20180731 15:50:44.025" level="INFO">${result} = {'JWTError': 'Your token could not be verified.'}</msg>
+<status status="PASS" starttime="20180731 15:50:44.016" endtime="20180731 15:50:44.025"></status>
+</kw>
+<kw name="Dictionary Should Contain Key" library="Collections">
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>JWTError</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:44.025" endtime="20180731 15:50:44.026"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>logfile.txt</arg>
+<arg>The encoded token could not be verified</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.027" level="INFO" html="yes">Created file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20180731 15:50:44.026" endtime="20180731 15:50:44.027"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.015" endtime="20180731 15:50:44.027"></status>
+</kw>
+<kw name="Then message &quot;The encoded token could not be verified&quot; should have been written to log-file" library="then">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.028" level="INFO" html="yes">Getting file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.029" level="INFO">${text} = The encoded token could not be verified</msg>
+<status status="PASS" starttime="20180731 15:50:44.028" endtime="20180731 15:50:44.029"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>${msg}</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:44.029" endtime="20180731 15:50:44.030"></status>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>${msg}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${txt}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.031" level="INFO" html="yes">Reading file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.031" level="INFO">1 out of 1 lines matched</msg>
+<msg timestamp="20180731 15:50:44.032" level="INFO">${txt} = The encoded token could not be verified</msg>
+<status status="PASS" starttime="20180731 15:50:44.030" endtime="20180731 15:50:44.032"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${txt}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.033" level="INFO">The encoded token could not be verified</msg>
+<status status="PASS" starttime="20180731 15:50:44.032" endtime="20180731 15:50:44.033"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.028" endtime="20180731 15:50:44.034"></status>
+</kw>
+<doc>This test case validates the key value in the json url</doc>
+<tags>
+<tag>POST</tag>
+</tags>
+<status status="PASS" starttime="20180731 15:50:44.010" endtime="20180731 15:50:44.034" critical="yes"></status>
+</test>
+<test id="s1-t7" name="Validate equals strings">
+<kw name="Given a url &quot;http://localhost:8000/v1/diff/1/&quot;" library="given">
+<doc>GET: The url model is: http://{IP_REST_SERVER:{PORT}}/v1/diff/{ID}/</doc>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.039" level="INFO">${test_url} = http://localhost:8000/v1/diff/1/</msg>
+<status status="PASS" starttime="20180731 15:50:44.038" endtime="20180731 15:50:44.039"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.037" endtime="20180731 15:50:44.039"></status>
+</kw>
+<kw name="When equals strings are verified" library="when">
+<kw name="Get Evaluate Request" library="configuration">
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.044" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:44.050" level="DEBUG">http://localhost:8000 "GET /v1/diff/1/ HTTP/1.1" 200 80</msg>
+<msg timestamp="20180731 15:50:44.053" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:44.060" level="DEBUG">http://localhost:8000 "GET /v1/diff/1/ HTTP/1.1" 200 80</msg>
+<msg timestamp="20180731 15:50:44.061" level="INFO">The get request was successful: {'diffblock': 'false', 'equal_content': 'true', 'equal_size': 'true', 'id': '1'}
+The strings are equals</msg>
+<msg timestamp="20180731 15:50:44.061" level="INFO">${result} = false</msg>
+<status status="PASS" starttime="20180731 15:50:44.041" endtime="20180731 15:50:44.062"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>false</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.062" level="DEBUG">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" starttime="20180731 15:50:44.062" endtime="20180731 15:50:44.062"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>logfile.txt</arg>
+<arg>The strings are equals</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.063" level="INFO" html="yes">Created file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20180731 15:50:44.063" endtime="20180731 15:50:44.063"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.040" endtime="20180731 15:50:44.063"></status>
+</kw>
+<kw name="Then message &quot;The strings are equals&quot; should have been written to log-file" library="then">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.065" level="INFO" html="yes">Getting file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.066" level="INFO">${text} = The strings are equals</msg>
+<status status="PASS" starttime="20180731 15:50:44.065" endtime="20180731 15:50:44.066"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>${msg}</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:44.066" endtime="20180731 15:50:44.067"></status>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>${msg}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${txt}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.068" level="INFO" html="yes">Reading file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.069" level="INFO">1 out of 1 lines matched</msg>
+<msg timestamp="20180731 15:50:44.069" level="INFO">${txt} = The strings are equals</msg>
+<status status="PASS" starttime="20180731 15:50:44.067" endtime="20180731 15:50:44.069"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${txt}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.070" level="INFO">The strings are equals</msg>
+<status status="PASS" starttime="20180731 15:50:44.070" endtime="20180731 15:50:44.070"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.064" endtime="20180731 15:50:44.070"></status>
+</kw>
+<doc>This test case validates if two strings are equals</doc>
+<tags>
+<tag>GET</tag>
+</tags>
+<status status="PASS" starttime="20180731 15:50:44.035" endtime="20180731 15:50:44.071" critical="yes"></status>
+</test>
+<test id="s1-t8" name="Validate differents strings">
+<kw name="Given a url &quot;http://localhost:8000/v1/diff/6/&quot;" library="given">
+<doc>GET: The url model is: http://{IP_REST_SERVER:{PORT}}/v1/diff/{ID}/</doc>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.075" level="INFO">${test_url} = http://localhost:8000/v1/diff/6/</msg>
+<status status="PASS" starttime="20180731 15:50:44.075" endtime="20180731 15:50:44.075"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.074" endtime="20180731 15:50:44.075"></status>
+</kw>
+<kw name="When differents strings are verified" library="when">
+<kw name="Get Evaluate Request" library="configuration">
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.080" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:44.085" level="DEBUG">http://localhost:8000 "GET /v1/diff/6/ HTTP/1.1" 200 81</msg>
+<msg timestamp="20180731 15:50:44.089" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:44.096" level="DEBUG">http://localhost:8000 "GET /v1/diff/6/ HTTP/1.1" 200 81</msg>
+<msg timestamp="20180731 15:50:44.097" level="INFO">The get request was successful: {'diffblock': 'true', 'equal_content': 'false', 'equal_size': 'false', 'id': '6'}
+The strings do not equals</msg>
+<msg timestamp="20180731 15:50:44.097" level="INFO">${result} = true</msg>
+<status status="PASS" starttime="20180731 15:50:44.077" endtime="20180731 15:50:44.097"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>true</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.098" level="DEBUG">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" starttime="20180731 15:50:44.098" endtime="20180731 15:50:44.098"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>logfile.txt</arg>
+<arg>The strings do not equals</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.099" level="INFO" html="yes">Created file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20180731 15:50:44.098" endtime="20180731 15:50:44.099"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.076" endtime="20180731 15:50:44.100"></status>
+</kw>
+<kw name="Then message &quot;The strings do not equals&quot; should have been written to log-file" library="then">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.101" level="INFO" html="yes">Getting file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.102" level="INFO">${text} = The strings do not equals</msg>
+<status status="PASS" starttime="20180731 15:50:44.101" endtime="20180731 15:50:44.102"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>${msg}</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:44.102" endtime="20180731 15:50:44.102"></status>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>${msg}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${txt}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.103" level="INFO" html="yes">Reading file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.104" level="INFO">1 out of 1 lines matched</msg>
+<msg timestamp="20180731 15:50:44.105" level="INFO">${txt} = The strings do not equals</msg>
+<status status="PASS" starttime="20180731 15:50:44.103" endtime="20180731 15:50:44.105"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${txt}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.106" level="INFO">The strings do not equals</msg>
+<status status="PASS" starttime="20180731 15:50:44.106" endtime="20180731 15:50:44.106"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.100" endtime="20180731 15:50:44.107"></status>
+</kw>
+<doc>This test case validates if two strings are differents</doc>
+<tags>
+<tag>GET</tag>
+</tags>
+<status status="PASS" starttime="20180731 15:50:44.072" endtime="20180731 15:50:44.107" critical="yes"></status>
+</test>
+<test id="s1-t9" name="Post request invalid url">
+<kw name="Given a url &quot;http://localhost:8000/v1/diff/7/center/&quot;" library="given">
+<doc>GET: The url model is: http://{IP_REST_SERVER:{PORT}}/v1/diff/{ID}/</doc>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${test_url}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.110" level="INFO">${test_url} = http://localhost:8000/v1/diff/7/center/</msg>
+<status status="PASS" starttime="20180731 15:50:44.110" endtime="20180731 15:50:44.110"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.109" endtime="20180731 15:50:44.110"></status>
+</kw>
+<kw name="And a json url &quot;{&quot;data&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsbWFvIjoia2FrYXJvdG8ifQ.PzKS7swGuNH50CCEBqfwQ-ktPSjI5JQ91zeiAgCju6I&quot;}&quot;" library="given">
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${json_data}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.113" level="INFO">${json_data} = {"data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsbWFvIjoia2FrYXJvdG8ifQ.PzKS7swGuNH50CCEBqfwQ-ktPSjI5JQ91zeiAgCju6I"}</msg>
+<status status="PASS" starttime="20180731 15:50:44.112" endtime="20180731 15:50:44.113"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.111" endtime="20180731 15:50:44.113"></status>
+</kw>
+<kw name="When user posts request from a invalid url" library="when">
+<kw name="Post Request" library="configuration">
+<arguments>
+<arg>${test_url}</arg>
+<arg>${json_data}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.115" level="DEBUG">Starting new HTTP connection (1): localhost:8000</msg>
+<msg timestamp="20180731 15:50:44.123" level="DEBUG">http://localhost:8000 "POST /v1/diff/7/center/ HTTP/1.1" 404 2438</msg>
+<msg timestamp="20180731 15:50:44.125" level="INFO">Checks the url name is valid</msg>
+<msg timestamp="20180731 15:50:44.125" level="INFO">${result} = 404</msg>
+<status status="PASS" starttime="20180731 15:50:44.114" endtime="20180731 15:50:44.125"></status>
+</kw>
+<kw name="Should Not Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are equal.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>${200}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.127" level="DEBUG">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'int'&gt;</msg>
+<status status="PASS" starttime="20180731 15:50:44.126" endtime="20180731 15:50:44.127"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>logfile.txt</arg>
+<arg>Checks the url name is valid</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.128" level="INFO" html="yes">Created file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20180731 15:50:44.127" endtime="20180731 15:50:44.128"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.113" endtime="20180731 15:50:44.128"></status>
+</kw>
+<kw name="Then message &quot;Checks the url name is valid&quot; should have been written to log-file" library="then">
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.129" level="INFO" html="yes">Getting file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.130" level="INFO">${text} = Checks the url name is valid</msg>
+<status status="PASS" starttime="20180731 15:50:44.129" endtime="20180731 15:50:44.130"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>${msg}</arg>
+</arguments>
+<status status="PASS" starttime="20180731 15:50:44.130" endtime="20180731 15:50:44.131"></status>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<arguments>
+<arg>${PATH_LOG_FILE}</arg>
+<arg>${msg}</arg>
+<arg>encoding_errors=ignore</arg>
+</arguments>
+<assign>
+<var>${txt}</var>
+</assign>
+<msg timestamp="20180731 15:50:44.132" level="INFO" html="yes">Reading file '&lt;a href="file:///home/ralph/environments/RobotFramework/restframework_automation/logfile.txt"&gt;/home/ralph/environments/RobotFramework/restframework_automation/logfile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180731 15:50:44.132" level="INFO">1 out of 1 lines matched</msg>
+<msg timestamp="20180731 15:50:44.132" level="INFO">${txt} = Checks the url name is valid</msg>
+<status status="PASS" starttime="20180731 15:50:44.131" endtime="20180731 15:50:44.132"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${txt}</arg>
+</arguments>
+<msg timestamp="20180731 15:50:44.133" level="INFO">Checks the url name is valid</msg>
+<status status="PASS" starttime="20180731 15:50:44.133" endtime="20180731 15:50:44.133"></status>
+</kw>
+<status status="PASS" starttime="20180731 15:50:44.128" endtime="20180731 15:50:44.133"></status>
+</kw>
+<doc>This test case validates the behavior (POST) when uses a invalid url</doc>
+<tags>
+<tag>POST</tag>
+</tags>
+<status status="PASS" starttime="20180731 15:50:44.108" endtime="20180731 15:50:44.134" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20180731 15:50:43.699" endtime="20180731 15:50:44.135"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="9" fail="0">Critical Tests</stat>
+<stat pass="9" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="5" fail="0">GET</stat>
+<stat pass="4" fail="0">POST</stat>
+</tag>
+<suite>
+<stat pass="9" fail="0" id="s1" name="Requests">Requests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
