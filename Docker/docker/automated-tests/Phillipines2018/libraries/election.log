@@ -1,0 +1,881 @@
+2018-06-21T17:25:17+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-06-21T17:25:17+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-06-21T17:25:17+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-06-21T17:25:17+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-06-21T17:25:17+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-06-21T17:25:17+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-06-21T17:25:17+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-06-21T17:25:17+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-06-21T17:25:17+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-06-21T17:25:17+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-06-21T17:25:17+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-06-21T17:25:17+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-06-21T17:25:17+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-06-21T17:25:17+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x1af4000).
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0x1af4000' - ''.
+2018-06-21T17:25:17+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-06-21T17:25:18+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-06-21T17:25:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-06-21T17:25:18+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: /dev/sdb1
+2018-06-21T17:25:18+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: /dev/sdc1
+2018-06-21T17:25:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-06-21T17:25:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 5
+2018-06-21T17:25:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at '/'
+2018-06-21T17:25:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-06-21T17:25:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at ''
+2018-06-21T17:25:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-06-21T17:25:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-21T17:25:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 2
+2018-06-21T17:25:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-06-21T17:25:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-21T17:25:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Total matched devices 2
+2018-06-21T17:25:21+00:00|AUDIT|INFO |NA     |System         |00000026|Main storage serial number: SMTT_USB_DISK_AA141DRRG0000THUH014POIUYTREWQQS-0:0
+2018-06-21T17:25:21+00:00|AUDIT|INFO |NA     |System         |00000027|Redundant storage serial number: SMTT_USB_DISK_AA00013060100363-0:0
+2018-06-21T17:25:21+00:00|AUDIT|INFO |NA     |System         |00000028|Main storage mount path: /media/at/PCOS1/saes
+2018-06-21T17:25:21+00:00|AUDIT|INFO |NA     |System         |00000029|Redundant storage mount path: /media/at/PCOS2/saes
+2018-06-21T17:25:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Finishing external storage initialization.
+2018-06-21T17:25:21+00:00|AUDIT|INFO |NA     |System         |00000001|Application version: 1.7.35.3971.
+2018-06-21T17:25:21+00:00|AUDIT|INFO |NA     |System         |00000002|SAES framework build version: 0.15.176.1443.
+2018-06-21T17:25:21+00:00|AUDIT|INFO |NA     |System         |00000003|SAES framework runtime version: 0.15.176.1443.
+2018-06-21T17:25:21+00:00|AUDIT|INFO |NA     |System         |00000004|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-06-21T17:25:21+00:00|AUDIT|INFO |NA     |System         |00000005|Machine MAC address: 1c:75:08:a1:dd:6f.
+2018-06-21T17:25:23+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-06-21T17:25:23+00:00|AUDIT|INFO |NA     |System         |00000006|Active election event: ELECTION-1.EVENT.1
+2018-06-21T17:25:23+00:00|AUDIT|INFO |NA     |System         |00000006|Voting jurisdiction: Country: PHILIPPINES, Region: CAR, Province: BENGUET, City/Municipality: TUBA, Barangay: ANSAGAN.
+2018-06-21T17:25:23+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-21T17:25:23+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner firmware version: 1.0.0
+2018-06-21T17:25:23+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner self-diagnostic ended with status: SUCCESSFUL
+2018-06-21T17:25:23+00:00|DEVEL|DEBUG|NA     |System         |00000000|Saving 'state/workflows-status.xml' file with the workflow state.
+2018-06-21T17:25:23+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-21T17:25:26+00:00|AUDIT|INFO |NA     |System         |00000007|Device physical Id: 00000000.
+2018-06-21T17:25:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initialization ended.
+2018-06-21T17:25:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting battery status monitor...
+2018-06-21T17:25:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: Generating report...
+2018-06-21T17:25:26+00:00|AUDIT|INFO |NA     |System         |00000021|Showing startup's information...
+2018-06-21T17:25:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x1f22200).
+2018-06-21T17:25:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T17:25:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x1f22200' - ''.
+2018-06-21T17:25:31+00:00|AUDIT|INFO |NA     |System         |00000022|The startup's information screen closed automatically.
+2018-06-21T17:25:31+00:00|AUDIT|INFO |SUCCESS|System         |00000000|The use indicator '%1' has been initialized.
+2018-06-21T17:25:31+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:31+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:33+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T17:25:34+00:00|AUDIT|INFO |NA     |System         |00000000|Activation tokens correctly registered.
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x1fcf6c0).
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::IdleState::IdleStateScreen' - '0x1fcf6c0' - ''.
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Closing screen: 0x1f22200 with response SCREEN_RESPONSE_TIMEOUT.
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x1f22200' - ''.
+2018-06-21T17:25:34+00:00|DEVEL|DEBUG|NA     |System         |00000000|The screen '0x1f22200' is not going to be deleted. It's not managed.
+2018-06-21T17:25:35+00:00|AUDIT|INFO |NA     |System         |00000510|The user touch the navigation 'Menu' button.
+2018-06-21T17:25:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen: Insert your PIN. (0x83cd100).
+2018-06-21T17:25:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T17:25:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Turn on screen backlight. Level: 150
+2018-06-21T17:25:35+00:00|AUDIT|ERROR|NA     |System         |00000000|Unable to change the brightness.
+2018-06-21T17:25:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::ChallengeScreen' - '0x83cd100' - 'Insert your PIN.'.
+2018-06-21T17:25:35+00:00|AUDIT|INFO |NA     |System         |00000511|The challenge screen has been shown.
+2018-06-21T17:25:36+00:00|AUDIT|INFO |NA     |System         |00002020|The PIN for 'Chairman' is correct.
+2018-06-21T17:25:36+00:00|AUDIT|INFO |NA     |System         |00002021|The user 'Chairman' with role 'Chairman' has been authenticated.
+2018-06-21T19:16:00+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-06-21T19:16:00+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-06-21T19:16:00+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-06-21T19:16:00+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-06-21T19:16:00+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-06-21T19:16:00+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-06-21T19:16:00+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-06-21T19:16:00+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-06-21T19:16:00+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-06-21T19:16:00+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-06-21T19:16:00+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-06-21T19:16:00+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-06-21T19:16:00+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-06-21T19:16:00+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x24ec9a0).
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0x24ec9a0' - ''.
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-06-21T19:16:00+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-06-21T19:16:00+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: /dev/sdb1
+2018-06-21T19:16:00+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: /dev/sdc1
+2018-06-21T19:16:00+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-06-21T19:16:02+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 5
+2018-06-21T19:16:02+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at '/'
+2018-06-21T19:16:02+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-06-21T19:16:02+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at ''
+2018-06-21T19:16:02+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-06-21T19:16:02+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-21T19:16:02+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 2
+2018-06-21T19:16:02+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-06-21T19:16:02+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-21T19:16:04+00:00|DEVEL|DEBUG|NA     |System         |00000000|Total matched devices 2
+2018-06-21T19:16:04+00:00|AUDIT|INFO |NA     |System         |00000026|Main storage serial number: SMTT_USB_DISK_AA141DRRG0000THUH014POIUYTREWQQS-0:0
+2018-06-21T19:16:04+00:00|AUDIT|INFO |NA     |System         |00000027|Redundant storage serial number: SMTT_USB_DISK_AA00013060100363-0:0
+2018-06-21T19:16:04+00:00|AUDIT|INFO |NA     |System         |00000028|Main storage mount path: /media/at/PCOS1/saes
+2018-06-21T19:16:04+00:00|AUDIT|INFO |NA     |System         |00000029|Redundant storage mount path: /media/at/PCOS2/saes
+2018-06-21T19:16:04+00:00|DEVEL|DEBUG|NA     |System         |00000000|Finishing external storage initialization.
+2018-06-21T19:16:04+00:00|AUDIT|INFO |NA     |System         |00000001|Application version: 1.7.35.3971.
+2018-06-21T19:16:04+00:00|AUDIT|INFO |NA     |System         |00000002|SAES framework build version: 0.15.176.1443.
+2018-06-21T19:16:04+00:00|AUDIT|INFO |NA     |System         |00000003|SAES framework runtime version: 0.15.176.1443.
+2018-06-21T19:16:04+00:00|AUDIT|INFO |NA     |System         |00000004|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-06-21T19:16:04+00:00|AUDIT|INFO |NA     |System         |00000005|Machine MAC address: 1c:75:08:a1:dd:6f.
+2018-06-21T19:16:08+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-06-21T19:16:08+00:00|AUDIT|INFO |NA     |System         |00000006|Active election event: ELECTION-1.EVENT.1
+2018-06-21T19:16:08+00:00|AUDIT|INFO |NA     |System         |00000006|Voting jurisdiction: Country: PHILIPPINES, Region: CAR, Province: BENGUET, City/Municipality: TUBA, Barangay: ANSAGAN.
+2018-06-21T19:16:08+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-21T19:16:08+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner firmware version: 1.0.0
+2018-06-21T19:16:08+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner self-diagnostic ended with status: SUCCESSFUL
+2018-06-21T19:16:08+00:00|DEVEL|DEBUG|NA     |System         |00000000|Saving 'state/workflows-status.xml' file with the workflow state.
+2018-06-21T19:16:09+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-21T19:16:14+00:00|AUDIT|INFO |NA     |System         |00000007|Device physical Id: 00000000.
+2018-06-21T19:16:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initialization ended.
+2018-06-21T19:16:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting battery status monitor...
+2018-06-21T19:16:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: Generating report...
+2018-06-21T19:16:14+00:00|AUDIT|INFO |NA     |System         |00000021|Showing startup's information...
+2018-06-21T19:16:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x26a6460).
+2018-06-21T19:16:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T19:16:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x26a6460' - ''.
+2018-06-21T19:16:19+00:00|AUDIT|INFO |NA     |System         |00000022|The startup's information screen closed automatically.
+2018-06-21T19:16:19+00:00|AUDIT|INFO |SUCCESS|System         |00000000|The use indicator '%1' has been initialized.
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-21T19:16:21+00:00|AUDIT|INFO |NA     |System         |00000000|Activation tokens correctly registered.
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x2924960).
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::IdleState::IdleStateScreen' - '0x2924960' - ''.
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Closing screen: 0x26a6460 with response SCREEN_RESPONSE_TIMEOUT.
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x26a6460' - ''.
+2018-06-21T19:16:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|The screen '0x26a6460' is not going to be deleted. It's not managed.
+2018-06-21T19:16:22+00:00|AUDIT|INFO |NA     |System         |00000510|The user touch the navigation 'Menu' button.
+2018-06-21T19:16:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen: Insert your PIN. (0x28b8a00).
+2018-06-21T19:16:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T19:16:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Turn on screen backlight. Level: 150
+2018-06-21T19:16:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::ChallengeScreen' - '0x28b8a00' - 'Insert your PIN.'.
+2018-06-21T19:16:22+00:00|AUDIT|INFO |NA     |System         |00000511|The challenge screen has been shown.
+2018-06-21T19:16:23+00:00|AUDIT|INFO |NA     |System         |00002020|The PIN for 'Chairman' is correct.
+2018-06-21T19:16:23+00:00|AUDIT|INFO |NA     |System         |00002021|The user 'Chairman' with role 'Chairman' has been authenticated.
+2018-06-21T19:16:23+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Reloading theme... size: 1
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/open-polls' has been configured.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/resume-voting-process' has been configured.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/close-polls' has been configured.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/transmit-results' has been configured.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/lock-external-memory' has been configured.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Submenu 'menu/diagnostics' has been configured.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Submenu 'menu/reports' has been configured.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Submenu 'menu/system-settings' has been configured.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|The menu option 'functionalities/resume-voting-process' is not available in the current election state. This will be disabled.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|The menu option 'functionalities/close-polls' is not available in the current election state. This will be disabled.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|The menu option 'functionalities/transmit-results' is not available in the current election state. This will be disabled.
+2018-06-21T19:16:23+00:00|DEVEL|INFO |NA     |Chairman       |00000000|The menu option 'functionalities/lock-external-memory' is not available in the current election state. This will be disabled.
+2018-06-21T19:16:23+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Adding screen: Manage polls (0x298ea00).
+2018-06-21T19:16:23+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Showing top screen.
+2018-06-21T19:16:23+00:00|AUDIT|INFO |NA     |Chairman       |00000512|The challenge screen has been closed.
+2018-06-21T19:16:23+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Showing screen: 'Saes::StandardMenu::MenuScreen' - '0x298ea00' - 'Manage polls'.
+2018-06-21T19:16:23+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Closing screen: 0x28b8a00 with response SCREEN_RESPONSE_NONE.
+2018-06-21T19:16:23+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Removing screen: 'Saes::Gui::ChallengeScreen' - '0x28b8a00' - 'Insert your PIN.'.
+2018-06-22T15:21:18+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-06-22T15:21:18+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-06-22T15:21:18+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-06-22T15:21:18+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-06-22T15:21:18+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-06-22T15:21:18+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-06-22T15:21:18+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-06-22T15:21:18+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-06-22T15:21:18+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-06-22T15:21:18+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-06-22T15:21:18+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-06-22T15:21:18+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-06-22T15:21:18+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-06-22T15:21:18+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x1d50b60).
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0x1d50b60' - ''.
+2018-06-22T15:21:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-06-22T15:21:19+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-06-22T15:21:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-06-22T15:21:19+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: /dev/sdb1
+2018-06-22T15:21:19+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: /dev/sdc1
+2018-06-22T15:21:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-06-22T15:21:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 5
+2018-06-22T15:21:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at '/'
+2018-06-22T15:21:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-06-22T15:21:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at ''
+2018-06-22T15:21:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-06-22T15:21:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-22T15:21:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 2
+2018-06-22T15:21:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-06-22T15:21:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-22T15:21:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Total matched devices 2
+2018-06-22T15:21:22+00:00|AUDIT|INFO |NA     |System         |00000026|Main storage serial number: SMTT_USB_DISK_AA141DRRG0000THUH014POIUYTREWQQS-0:0
+2018-06-22T15:21:22+00:00|AUDIT|INFO |NA     |System         |00000027|Redundant storage serial number: SMTT_USB_DISK_AA00013060100363-0:0
+2018-06-22T15:21:22+00:00|AUDIT|INFO |NA     |System         |00000028|Main storage mount path: /media/at/PCOS1/saes
+2018-06-22T15:21:22+00:00|AUDIT|INFO |NA     |System         |00000029|Redundant storage mount path: /media/at/PCOS2/saes
+2018-06-22T15:21:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Finishing external storage initialization.
+2018-06-22T15:21:22+00:00|AUDIT|INFO |NA     |System         |00000001|Application version: 1.7.35.3971.
+2018-06-22T15:21:22+00:00|AUDIT|INFO |NA     |System         |00000002|SAES framework build version: 0.15.176.1443.
+2018-06-22T15:21:22+00:00|AUDIT|INFO |NA     |System         |00000003|SAES framework runtime version: 0.15.176.1443.
+2018-06-22T15:21:22+00:00|AUDIT|INFO |NA     |System         |00000004|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-06-22T15:21:22+00:00|AUDIT|INFO |NA     |System         |00000005|Machine MAC address: 1c:75:08:a1:dd:6f.
+2018-06-22T15:21:25+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-06-22T15:21:25+00:00|AUDIT|INFO |NA     |System         |00000006|Active election event: ELECTION-1.EVENT.1
+2018-06-22T15:21:25+00:00|AUDIT|INFO |NA     |System         |00000006|Voting jurisdiction: Country: PHILIPPINES, Region: CAR, Province: BENGUET, City/Municipality: TUBA, Barangay: ANSAGAN.
+2018-06-22T15:21:25+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-22T15:21:25+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner firmware version: 1.0.0
+2018-06-22T15:21:25+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner self-diagnostic ended with status: SUCCESSFUL
+2018-06-22T15:21:25+00:00|DEVEL|DEBUG|NA     |System         |00000000|Saving 'state/workflows-status.xml' file with the workflow state.
+2018-06-22T15:21:25+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-22T15:21:29+00:00|AUDIT|INFO |NA     |System         |00000007|Device physical Id: 00000000.
+2018-06-22T15:21:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initialization ended.
+2018-06-22T15:21:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting battery status monitor...
+2018-06-22T15:21:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: Generating report...
+2018-06-22T15:21:29+00:00|AUDIT|INFO |NA     |System         |00000021|Showing startup's information...
+2018-06-22T15:21:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x1f0c4c0).
+2018-06-22T15:21:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-22T15:21:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x1f0c4c0' - ''.
+2018-06-22T15:21:35+00:00|AUDIT|INFO |NA     |System         |00000022|The startup's information screen closed automatically.
+2018-06-22T15:21:35+00:00|AUDIT|INFO |SUCCESS|System         |00000000|The use indicator '%1' has been initialized.
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:35+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:36+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:21:37+00:00|AUDIT|INFO |NA     |System         |00000000|Activation tokens correctly registered.
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x2184f90).
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::IdleState::IdleStateScreen' - '0x2184f90' - ''.
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Closing screen: 0x1f0c4c0 with response SCREEN_RESPONSE_TIMEOUT.
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x1f0c4c0' - ''.
+2018-06-22T15:21:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|The screen '0x1f0c4c0' is not going to be deleted. It's not managed.
+2018-06-22T15:21:38+00:00|AUDIT|INFO |NA     |System         |00000510|The user touch the navigation 'Menu' button.
+2018-06-22T15:21:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen: Insert your PIN. (0x2123530).
+2018-06-22T15:21:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-22T15:21:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Turn on screen backlight. Level: 150
+2018-06-22T15:21:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::ChallengeScreen' - '0x2123530' - 'Insert your PIN.'.
+2018-06-22T15:21:38+00:00|AUDIT|INFO |NA     |System         |00000511|The challenge screen has been shown.
+2018-06-22T15:21:39+00:00|AUDIT|INFO |NA     |System         |00002020|The PIN for 'Chairman' is correct.
+2018-06-22T15:21:39+00:00|AUDIT|INFO |NA     |System         |00002021|The user 'Chairman' with role 'Chairman' has been authenticated.
+2018-06-22T15:21:39+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Reloading theme... size: 1
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/open-polls' has been configured.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/resume-voting-process' has been configured.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/close-polls' has been configured.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/transmit-results' has been configured.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Menu option 'functionalities/lock-external-memory' has been configured.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Submenu 'menu/diagnostics' has been configured.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Submenu 'menu/reports' has been configured.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|Submenu 'menu/system-settings' has been configured.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|The menu option 'functionalities/resume-voting-process' is not available in the current election state. This will be disabled.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|The menu option 'functionalities/close-polls' is not available in the current election state. This will be disabled.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|The menu option 'functionalities/transmit-results' is not available in the current election state. This will be disabled.
+2018-06-22T15:21:40+00:00|DEVEL|INFO |NA     |Chairman       |00000000|The menu option 'functionalities/lock-external-memory' is not available in the current election state. This will be disabled.
+2018-06-22T15:21:40+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Adding screen: Manage polls (0x1d03030).
+2018-06-22T15:21:40+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Showing top screen.
+2018-06-22T15:21:40+00:00|AUDIT|INFO |NA     |Chairman       |00000512|The challenge screen has been closed.
+2018-06-22T15:21:40+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Showing screen: 'Saes::StandardMenu::MenuScreen' - '0x1d03030' - 'Manage polls'.
+2018-06-22T15:21:40+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Closing screen: 0x2123530 with response SCREEN_RESPONSE_NONE.
+2018-06-22T15:21:40+00:00|DEVEL|DEBUG|NA     |Chairman       |00000000|Removing screen: 'Saes::Gui::ChallengeScreen' - '0x2123530' - 'Insert your PIN.'.
+2018-06-22T15:25:57+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-06-22T15:25:57+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-06-22T15:25:57+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-06-22T15:25:57+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-06-22T15:25:57+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-06-22T15:25:57+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-06-22T15:25:57+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-06-22T15:25:57+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-06-22T15:25:57+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-06-22T15:25:57+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-06-22T15:25:57+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-06-22T15:25:57+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-06-22T15:25:57+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-06-22T15:25:57+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0xb57e90).
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0xb57e90' - ''.
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-06-22T15:25:57+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-06-22T15:25:57+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: /dev/sdb1
+2018-06-22T15:25:57+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: /dev/sdc1
+2018-06-22T15:25:57+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-06-22T15:25:58+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 5
+2018-06-22T15:25:58+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at '/'
+2018-06-22T15:25:58+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-06-22T15:25:58+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at ''
+2018-06-22T15:25:58+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-06-22T15:25:58+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-22T15:25:59+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 2
+2018-06-22T15:25:59+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-06-22T15:25:59+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-22T15:26:01+00:00|DEVEL|DEBUG|NA     |System         |00000000|Total matched devices 2
+2018-06-22T15:26:01+00:00|AUDIT|INFO |NA     |System         |00000026|Main storage serial number: SMTT_USB_DISK_AA141DRRG0000THUH014POIUYTREWQQS-0:0
+2018-06-22T15:26:01+00:00|AUDIT|INFO |NA     |System         |00000027|Redundant storage serial number: SMTT_USB_DISK_AA00013060100363-0:0
+2018-06-22T15:26:01+00:00|AUDIT|INFO |NA     |System         |00000028|Main storage mount path: /media/at/PCOS1/saes
+2018-06-22T15:26:01+00:00|AUDIT|INFO |NA     |System         |00000029|Redundant storage mount path: /media/at/PCOS2/saes
+2018-06-22T15:26:01+00:00|DEVEL|DEBUG|NA     |System         |00000000|Finishing external storage initialization.
+2018-06-22T15:26:01+00:00|AUDIT|INFO |NA     |System         |00000001|Application version: 1.7.35.3971.
+2018-06-22T15:26:01+00:00|AUDIT|INFO |NA     |System         |00000002|SAES framework build version: 0.15.176.1443.
+2018-06-22T15:26:01+00:00|AUDIT|INFO |NA     |System         |00000003|SAES framework runtime version: 0.15.176.1443.
+2018-06-22T15:26:01+00:00|AUDIT|INFO |NA     |System         |00000004|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-06-22T15:26:01+00:00|AUDIT|INFO |NA     |System         |00000005|Machine MAC address: 1c:75:08:a1:dd:6f.
+2018-06-22T15:26:09+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-06-22T15:26:09+00:00|AUDIT|INFO |NA     |System         |00000006|Active election event: ELECTION-1.EVENT.1
+2018-06-22T15:26:09+00:00|AUDIT|INFO |NA     |System         |00000006|Voting jurisdiction: Country: PHILIPPINES, Region: CAR, Province: BENGUET, City/Municipality: TUBA, Barangay: ANSAGAN.
+2018-06-22T15:26:09+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-22T15:26:09+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner firmware version: 1.0.0
+2018-06-22T15:26:09+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner self-diagnostic ended with status: SUCCESSFUL
+2018-06-22T15:26:09+00:00|DEVEL|DEBUG|NA     |System         |00000000|Saving 'state/workflows-status.xml' file with the workflow state.
+2018-06-22T15:26:10+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-06-22T15:26:14+00:00|AUDIT|INFO |NA     |System         |00000007|Device physical Id: 00000000.
+2018-06-22T15:26:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initialization ended.
+2018-06-22T15:26:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting battery status monitor...
+2018-06-22T15:26:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: Generating report...
+2018-06-22T15:26:14+00:00|AUDIT|INFO |NA     |System         |00000021|Showing startup's information...
+2018-06-22T15:26:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0xa46000).
+2018-06-22T15:26:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-22T15:26:14+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0xa46000' - ''.
+2018-06-22T15:26:20+00:00|AUDIT|INFO |NA     |System         |00000022|The startup's information screen closed automatically.
+2018-06-22T15:26:20+00:00|AUDIT|INFO |SUCCESS|System         |00000000|The use indicator '%1' has been initialized.
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-06-22T15:26:22+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T19:41:24+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-08-01T19:41:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-08-01T19:41:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-08-01T19:41:24+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-08-01T19:41:24+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-08-01T19:41:24+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-08-01T19:41:24+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-08-01T19:41:24+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-08-01T19:41:24+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-08-01T19:41:24+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-08-01T19:41:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-08-01T19:41:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-08-01T19:41:24+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-08-01T19:41:24+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-08-01T19:41:24+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-08-01T19:41:24+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-08-01T19:41:24+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-08-01T19:41:24+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-08-01T19:41:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-08-01T19:41:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T19:41:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-08-01T19:41:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-08-01T19:41:24+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find image resource: 'election-splash-image.svg'.
+2018-08-01T19:41:25+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-08-01T19:41:25+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x1bcda70).
+2018-08-01T19:41:25+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T19:41:25+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0x1bcda70' - ''.
+2018-08-01T19:41:25+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-08-01T19:41:26+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-08-01T19:41:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-08-01T19:41:26+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: 
+2018-08-01T19:41:26+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: 
+2018-08-01T19:41:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-08-01T19:41:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 3
+2018-08-01T19:41:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at '/'
+2018-08-01T19:41:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-08-01T19:41:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at ''
+2018-08-01T19:41:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 0
+2018-08-01T19:41:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|There are more storage devices than expected.
+2018-08-01T19:41:28+00:00|AUDIT|INFO |NA     |System         |00000028|Main storage mount path: /home/at/saes
+2018-08-01T19:41:28+00:00|AUDIT|INFO |NA     |System         |00000029|Redundant storage mount path: 
+2018-08-01T19:41:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Finishing external storage initialization.
+2018-08-01T19:41:28+00:00|DEVEL|ERROR|NA     |System         |00000000|There are more storage devices than expected.
+2018-08-01T19:41:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen: Control panel (0x7fd3940bd278).
+2018-08-01T19:41:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T19:41:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::ButtonSelectionScreen' - '0x7fd3940bd278' - 'Control panel'.
+2018-08-01T20:03:38+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-08-01T20:03:38+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-08-01T20:03:38+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-08-01T20:03:38+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-08-01T20:03:38+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-08-01T20:03:38+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-08-01T20:03:38+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-08-01T20:03:38+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-08-01T20:03:38+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-08-01T20:03:38+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-08-01T20:03:38+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-08-01T20:03:38+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-08-01T20:03:38+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-08-01T20:03:38+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-08-01T20:03:38+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find image resource: 'election-splash-image.svg'.
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x1e35ca0).
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0x1e35ca0' - ''.
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-08-01T20:03:38+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-08-01T20:03:38+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: 
+2018-08-01T20:03:38+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: 
+2018-08-01T20:03:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-08-01T20:03:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 5
+2018-08-01T20:03:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at '/'
+2018-08-01T20:03:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-08-01T20:03:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at ''
+2018-08-01T20:03:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-08-01T20:03:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-08-01T20:03:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 2
+2018-08-01T20:04:07+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-08-01T20:04:07+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-08-01T20:04:07+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-08-01T20:04:07+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-08-01T20:04:07+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-08-01T20:04:07+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-08-01T20:04:07+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-08-01T20:04:07+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-08-01T20:04:07+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-08-01T20:04:07+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-08-01T20:04:07+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-08-01T20:04:07+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-08-01T20:04:07+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-08-01T20:04:07+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-08-01T20:04:07+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find image resource: 'election-splash-image.svg'.
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x18d07f0).
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0x18d07f0' - ''.
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-08-01T20:04:07+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-08-01T20:04:07+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: 
+2018-08-01T20:04:07+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: 
+2018-08-01T20:04:07+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-08-01T20:04:08+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 5
+2018-08-01T20:04:08+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at '/'
+2018-08-01T20:04:08+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-08-01T20:04:08+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at ''
+2018-08-01T20:04:08+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/at/PCOS1'
+2018-08-01T20:04:08+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-08-01T20:04:09+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 2
+2018-08-01T21:57:26+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-08-01T21:57:26+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-08-01T21:57:26+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-08-01T21:57:26+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-08-01T21:57:26+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-08-01T21:57:26+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-08-01T21:57:26+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: C.
+2018-08-01T21:57:26+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-08-01T21:57:26+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-08-01T21:57:26+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-08-01T21:57:26+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-08-01T21:57:26+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-08-01T21:57:26+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-08-01T21:57:26+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x1303bc0).
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0x1303bc0' - ''.
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-08-01T21:57:26+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: C
+2018-08-01T21:57:26+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: /dev/sdb1
+2018-08-01T21:57:26+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: /dev/sdc1
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 8
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at ''
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda3' mounted at ''
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at '/etc/resolv.conf'
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda6' mounted at ''
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda7' mounted at ''
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/A'
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/B'
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 2
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/A'
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/B'
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Total matched devices 2
+2018-08-01T21:57:26+00:00|AUDIT|INFO |NA     |System         |00000026|Main storage serial number: 
+2018-08-01T21:57:26+00:00|AUDIT|INFO |NA     |System         |00000027|Redundant storage serial number: 
+2018-08-01T21:57:26+00:00|AUDIT|INFO |NA     |System         |00000028|Main storage mount path: /media/A/saes
+2018-08-01T21:57:26+00:00|AUDIT|INFO |NA     |System         |00000029|Redundant storage mount path: /media/B/saes
+2018-08-01T21:57:26+00:00|DEVEL|DEBUG|NA     |System         |00000000|Finishing external storage initialization.
+2018-08-01T21:57:27+00:00|AUDIT|INFO |NA     |System         |00000001|Application version: 1.7.35.3971.
+2018-08-01T21:57:27+00:00|AUDIT|INFO |NA     |System         |00000002|SAES framework build version: 0.15.176.1443.
+2018-08-01T21:57:27+00:00|AUDIT|INFO |NA     |System         |00000003|SAES framework runtime version: 0.15.176.1443.
+2018-08-01T21:57:27+00:00|AUDIT|INFO |NA     |System         |00000004|Locale: C.
+2018-08-01T21:57:27+00:00|AUDIT|INFO |NA     |System         |00000005|Machine MAC address: 02:42:0b:0b:0b:02.
+2018-08-01T21:57:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: C
+2018-08-01T21:57:29+00:00|AUDIT|INFO |NA     |System         |00000006|Active election event: ELECTION-1.EVENT.1
+2018-08-01T21:57:29+00:00|AUDIT|INFO |NA     |System         |00000006|Voting jurisdiction: Country: PHILIPPINES, Region: CAR, Province: BENGUET, City/Municipality: TUBA, Barangay: ANSAGAN.
+2018-08-01T21:57:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-08-01T21:57:29+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner firmware version: 1.0.0
+2018-08-01T21:57:29+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner self-diagnostic ended with status: SUCCESSFUL
+2018-08-01T21:57:29+00:00|DEVEL|DEBUG|NA     |System         |00000000|Saving 'state/workflows-status.xml' file with the workflow state.
+2018-08-01T21:57:30+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-08-01T21:57:32+00:00|AUDIT|INFO |NA     |System         |00000007|Device physical Id: 00000000.
+2018-08-01T21:57:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initialization ended.
+2018-08-01T21:57:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting battery status monitor...
+2018-08-01T21:57:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: Generating report...
+2018-08-01T21:57:32+00:00|AUDIT|INFO |NA     |System         |00000021|Showing startup's information...
+2018-08-01T21:57:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x16c7a80).
+2018-08-01T21:57:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T21:57:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x16c7a80' - ''.
+2018-08-01T21:57:37+00:00|AUDIT|INFO |NA     |System         |00000022|The startup's information screen closed automatically.
+2018-08-01T21:57:37+00:00|AUDIT|INFO |SUCCESS|System         |00000000|The use indicator '%1' has been initialized.
+2018-08-01T21:57:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T21:57:40+00:00|AUDIT|INFO |NA     |System         |00000000|Activation tokens correctly registered.
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x137baf0).
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::IdleState::IdleStateScreen' - '0x137baf0' - ''.
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Closing screen: 0x16c7a80 with response SCREEN_RESPONSE_TIMEOUT.
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x16c7a80' - ''.
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|The screen '0x16c7a80' is not going to be deleted. It's not managed.
+2018-08-01T21:57:40+00:00|AUDIT|INFO |NA     |System         |00000510|The user touch the navigation 'Menu' button.
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen: Insert your PIN. (0x4f786f0).
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Turn on screen backlight. Level: 150
+2018-08-01T21:57:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::ChallengeScreen' - '0x4f786f0' - 'Insert your PIN.'.
+2018-08-01T21:57:40+00:00|AUDIT|INFO |NA     |System         |00000511|The challenge screen has been shown.
+2018-08-01T22:01:27+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-08-01T22:01:27+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-08-01T22:01:27+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-08-01T22:01:27+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-08-01T22:01:27+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-08-01T22:01:27+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-08-01T22:01:27+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: C.
+2018-08-01T22:01:27+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-08-01T22:01:27+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-08-01T22:01:27+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-08-01T22:01:27+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-08-01T22:01:27+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-08-01T22:01:27+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-08-01T22:01:27+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x1fb8a90).
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0x1fb8a90' - ''.
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-08-01T22:01:27+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: C
+2018-08-01T22:01:27+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: /dev/sdb1
+2018-08-01T22:01:27+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: /dev/sdc1
+2018-08-01T22:01:27+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 8
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at ''
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda3' mounted at ''
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at '/etc/resolv.conf'
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda6' mounted at ''
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda7' mounted at ''
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/A'
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/B'
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 2
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdb1' mounted at '/media/A'
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/B'
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Total matched devices 2
+2018-08-01T22:01:28+00:00|AUDIT|INFO |NA     |System         |00000026|Main storage serial number: 
+2018-08-01T22:01:28+00:00|AUDIT|INFO |NA     |System         |00000027|Redundant storage serial number: 
+2018-08-01T22:01:28+00:00|AUDIT|INFO |NA     |System         |00000028|Main storage mount path: /media/A/saes
+2018-08-01T22:01:28+00:00|AUDIT|INFO |NA     |System         |00000029|Redundant storage mount path: /media/B/saes
+2018-08-01T22:01:28+00:00|DEVEL|DEBUG|NA     |System         |00000000|Finishing external storage initialization.
+2018-08-01T22:01:28+00:00|AUDIT|INFO |NA     |System         |00000001|Application version: 1.7.35.3971.
+2018-08-01T22:01:28+00:00|AUDIT|INFO |NA     |System         |00000002|SAES framework build version: 0.15.176.1443.
+2018-08-01T22:01:28+00:00|AUDIT|INFO |NA     |System         |00000003|SAES framework runtime version: 0.15.176.1443.
+2018-08-01T22:01:28+00:00|AUDIT|INFO |NA     |System         |00000004|Locale: C.
+2018-08-01T22:01:28+00:00|AUDIT|INFO |NA     |System         |00000005|Machine MAC address: 02:42:0b:0b:0b:02.
+2018-08-01T22:01:30+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: C
+2018-08-01T22:01:30+00:00|AUDIT|INFO |NA     |System         |00000006|Active election event: ELECTION-1.EVENT.1
+2018-08-01T22:01:30+00:00|AUDIT|INFO |NA     |System         |00000006|Voting jurisdiction: Country: PHILIPPINES, Region: CAR, Province: BENGUET, City/Municipality: TUBA, Barangay: ANSAGAN.
+2018-08-01T22:01:30+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-08-01T22:01:30+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner firmware version: 1.0.0
+2018-08-01T22:01:30+00:00|AUDIT|INFO |NA     |System         |00000000|Scanner self-diagnostic ended with status: SUCCESSFUL
+2018-08-01T22:01:30+00:00|DEVEL|DEBUG|NA     |System         |00000000|Saving 'state/workflows-status.xml' file with the workflow state.
+2018-08-01T22:01:31+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-08-01T22:01:32+00:00|AUDIT|INFO |NA     |System         |00000007|Device physical Id: 00000000.
+2018-08-01T22:01:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initialization ended.
+2018-08-01T22:01:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting battery status monitor...
+2018-08-01T22:01:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: Generating report...
+2018-08-01T22:01:32+00:00|AUDIT|INFO |NA     |System         |00000021|Showing startup's information...
+2018-08-01T22:01:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x2392340).
+2018-08-01T22:01:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T22:01:32+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x2392340' - ''.
+2018-08-01T22:01:37+00:00|AUDIT|INFO |NA     |System         |00000022|The startup's information screen closed automatically.
+2018-08-01T22:01:37+00:00|AUDIT|INFO |SUCCESS|System         |00000000|The use indicator '%1' has been initialized.
+2018-08-01T22:01:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:37+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:38+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:39+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: 
+2018-08-01T22:01:40+00:00|AUDIT|INFO |NA     |System         |00000000|Activation tokens correctly registered.
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x23e7660).
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Connecting to fake ballot scanner.
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::IdleState::IdleStateScreen' - '0x23e7660' - ''.
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Closing screen: 0x2392340 with response SCREEN_RESPONSE_TIMEOUT.
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removing screen: 'Saes::SystemInformation::TimedSystemInformationScreen' - '0x2392340' - ''.
+2018-08-01T22:01:40+00:00|DEVEL|DEBUG|NA     |System         |00000000|The screen '0x2392340' is not going to be deleted. It's not managed.
+2018-08-01T22:01:41+00:00|AUDIT|INFO |NA     |System         |00000510|The user touch the navigation 'Menu' button.
+2018-08-01T22:01:41+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen: Insert your PIN. (0x257d120).
+2018-08-01T22:01:41+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-08-01T22:01:41+00:00|DEVEL|DEBUG|NA     |System         |00000000|Turn on screen backlight. Level: 150
+2018-08-01T22:01:41+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::ChallengeScreen' - '0x257d120' - 'Insert your PIN.'.
+2018-08-01T22:01:41+00:00|AUDIT|INFO |NA     |System         |00000511|The challenge screen has been shown.
+2018-08-01T22:01:42+00:00|AUDIT|INFO |NA     |System         |00002020|The PIN for 'Chairman' is correct.
+2018-08-01T22:01:42+00:00|AUDIT|INFO |NA     |System         |00002021|The user 'Chairman' with role 'Chairman' has been authenticated.

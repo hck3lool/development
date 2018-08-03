@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins-configuration>
+  <module-imports>
+    <import name="../lib/smartmatic/battery-status-applet/libbattery-status-applet.so"/>
+    <import name="../lib/smartmatic/clustered-precinct-applet/libclustered-precinct-applet.so"/>
+    <import name="../lib/smartmatic/font-size-changer/libfont-size-changer.so"/>
+    <import name="../lib/smartmatic/language-changer/liblanguage-changer.so"/>
+    <import name="../lib/smartmatic/memory-token-monitor/libmemory-token-monitor.so"/>
+    <import name="../lib/smartmatic/network-address-applet/libnetwork-address-applet.so"/>
+    <import name="../lib/smartmatic/pcos-system-information/libpcos-system-information.so"/>
+    <import name="../lib/smartmatic/pcos/libpcos.so"/>
+    <import name="../lib/smartmatic/standard-vote-repository-initializer/libstandard-vote-repository-initializer.so"/>
+    <import name="../lib/smartmatic/votes-cast-applet/libvotes-cast-applet.so"/>
+    <import name="../lib/smartmatic/transmission-status-applet/libtransmission-status-applet.so"/>
+  </module-imports>
+  <links>
+    <slot name="/Initializers">
+      <plug name="ballot-scanner-initializer"/>
+      <plug name="pcos-vote-repository-initializer"/>
+    </slot>
+    <!--slot name="/ActivationTokenRegistration">
+      <plug name="memory-token-activation">
+      </plug>
+    </slot-->
+    <slot name="/VisualVotingMonitor">
+      <plug name="ballot-scanner-monitor"/>
+    </slot>
+    <slot name="/VisualVotingExperience">
+      <plug name="pcos-voting-experience"/>
+    </slot>
+    <!--slot name="/MenuMonitor">
+      <plug name="memory-token-monitor"/>
+    </slot-->
+    <slot name="/LanguageChanger">
+      <plug name="language-changer"/>
+    </slot>
+    <slot name="/FontChanger">
+      <plug name="font-size-changer"/>
+    </slot>
+    <slot name="/SystemInformation/Providers">
+      <plug name="pcos-system-information"/>
+      <plug name="pcos-polling-station-information"/>
+      <plug name="pcos-election-information"/>
+    </slot>
+    <slot name="/Workspace/NotificationArea/RightApplets">
+      <plug name="clustered-precinct-applet"/>
+      <plug name="battery-status-applet"/>
+      <plug name="network-address-applet"/>
+      <plug name="votes-cast-applet"/>
+      <plug name="transmission-status-applet"/>
+    </slot>
+  </links>
+</plugins-configuration>

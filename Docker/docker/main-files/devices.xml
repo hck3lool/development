@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences name="devices">
+  <!-- Default devices -->
+  <preferences name="default">
+    <value name="power-manager">NullPowerManager</value>   <!-- NullPowerManager, Pdb300PowerManager, Pdb301PowerManager, Pdb400PowerManager, RC5PowerManager -->
+    <value name="printer">DebugPrinter</value>             <!-- NullPrinter, CupsPrinter, ApsCupsPrinter -->
+    <value name="ballot-scanner">FakeBallotScanner</value> <!-- NullBallotScanner, FakeBallotScanner, Gl310BallotScanner, RC5BallotScanner -->
+    <value name="memory-token">NullMemoryToken</value>     <!-- NullMemoryToken, Gl310MemoryToken, RC5MemoryToken -->
+  </preferences>
+</preferences>

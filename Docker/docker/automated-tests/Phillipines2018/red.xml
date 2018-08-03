@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectConfiguration>
+    <configVersion>2</configVersion>
+    <relativeTo>WORKSPACE</relativeTo>
+    <referencedLibrary type="PYTHON" name="window" path="Philippines2018/libraries"/>
+    <referencedLibrary type="PYTHON" name="window_object" path="Philippines2018/libraries"/>
+    <referencedLibrary type="PYTHON" name="logger" path="Philippines2018/libraries"/>
+    <referencedLibrary type="PYTHON" name="timer" path="Philippines2018/libraries"/>
+    <referencedLibrary type="PYTHON" name="application_windows" path="Philippines2018/libraries"/>
+    <referencedLibrary type="PYTHON" name="application_windows.ApplicationWindow" path="Philippines2018/libraries"/>
+    <pythonpath>
+        <path location="/home/at/workspace/Philippines2018/libraries"/>
+    </pythonpath>
+    <classpath/>
+    <excludedForValidation/>
+    <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
+    <validatedFileMaxSize>1024</validatedFileMaxSize>
+    <isReferencedLibrariesAutoReloadEnabled>true</isReferencedLibrariesAutoReloadEnabled>
+    <isReferencedLibrariesAutoDiscoveringEnabled>true</isReferencedLibrariesAutoDiscoveringEnabled>
+    <isLibrariesAutoDiscoveringSummaryWindowEnabled>false</isLibrariesAutoDiscoveringSummaryWindowEnabled>
+</projectConfiguration>

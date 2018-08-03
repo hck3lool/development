@@ -1,0 +1,209 @@
+{
+    "Activation": [
+        "lblPleasetypetheactivationcommandintheconsole",
+        "lblPleaseinsertsecuritykeyforauthentication",
+        "lblPleaseinsertballot",
+        "lblPlease,insertballot",
+        "lblPleaseinsertthesecuritykey",
+        "lblPlease,insertsecuritykeyforauthentication",
+        "lblSecuritykeyregistration",
+        "lblPleaseinsertyourbarcodeinthereader",
+        "lblPleaseentersecuritykeyforauthentication",
+        "lblPleaseinserttheballot*",
+        "lblPlease,insertyourballot",
+        "lblPleaseinsertyoursmartcardinthereader",
+        "lblTheelectionisnotopen.",
+        "lblPlease,insertyourballot",
+        "lblPleaseinsertyouraccesstokenintothedeviceslot",
+        "lblPleaseinsertyourmarkedballotintothescannerslot",
+        "lblSessionActivation",
+        "lblPleasepressthemenubuttontocontinue",
+        "lblInsertyourmarkedballotintothescannerslot"
+    ],
+    "Application version": [
+        "lblApplicationversion"
+    ],
+    "Audio diagnostic": [
+        "lblAudiodiagnostic"
+    ],
+    "Audio voting main label": [
+        "lblTheaudiovotingexperienceisinprogress"
+    ],
+    "Audit Report Ending Date": [
+        "lblSelectendingdate"
+    ],
+    "Audit Report Starting Date": [
+        "lblSelectstartingdate"
+    ],
+    "BEI Registration Screen": [
+        "uknBEIChairman"
+    ],
+    "BEI Signature Challenge Screen": [
+        "lblPlease,inserttheBEIChairmansignaturePIN",
+        "lblPlease,inserttheBEIPollClerksignaturePIN",
+        "lblPlease,inserttheVCMTechnicalSupportsignaturePIN"
+    ],
+    "Ballot Cast": [
+        "lbl*votes"
+    ],
+    "Ballot Cast Re-Zero": [
+        "lbl0votes"
+    ],
+    "BallotActivationScreen": [
+        "lblPleaseinsertballot"
+    ],
+    "ButtonScreen": [
+        "lblThisballothasbeenpreviouslyscanned"
+    ],
+    "ButtonSelection": [
+        "lblChairman",
+        "uknChairman",
+        "lblPleasechooseyourrole",
+        "lblPleasechooseyourusername"
+    ],
+    "Challenge": [
+        "lbl5",
+        "*InsertyourPIN*",
+        "lblPleaseenteryourpassword",
+        "lblClosevoting",
+        "lblPleaseenteryourPIN",
+        "lblPleaseinsertproductionPIN",
+        "lblPleasenowinsertthedevicePIN",
+        "lblPlease,inserttheproductionmasterPIN",
+        "lblPlease,insertthedevicePIN",
+        "lblOpenvoting",
+        "lblPleaseinserttheaudiounblockingkey",
+        "lblWrong password.Pleasetryagain",
+        "lblPleaseenterthespecialPIN",
+        "lblPleaseinsertthevotingexperienceunblockingkey"
+    ],
+    "Confirmation": [
+        "lblDidyouhearthesounds?",
+        "lblWastheimageprintedcorrectly?",
+        "lblYouareabouttodelete*votes,areyousureofproceed?",
+        "uknYes",
+        "lblYes"
+    ],
+    "Confirmation printer": [
+        "lblWastheimageprintedcorrectly?"
+    ],
+    "Congratulations": [
+        "lblCongratulations"
+    ],
+    "Done": [
+        "*successfullycompleted*",
+        "*couldnotbecompleted*",
+        "lblTransmitresultswassuccessfullycompleted*",
+        "lblTransmitresultscouldnotbecompleted*",
+        "lblReopenpollscouldnotbecompleted*",
+        "lblReopenpollswassuccessfullycompleted*",
+        "lblOpenPollswassuccessfullycompleted*",
+        "lblOpenvotingwassuccessfullycompleted!",
+        "lblOpenvotingcouldnotbecompleted!",
+        "lblClosevotingwassuccessfullycompleted!",
+        "lblClosevotingcouldnotbecompleted!",
+        "lblClosePollswassuccessfullycompleted*",
+        "lblDone"
+    ],
+    "Election is not open": [
+        "lblThevotingexperiencecouldnotbeactivated.Theelectionisnotopen."
+    ],
+    "Event selection": [
+        "lblSelecttheelectionevent",
+        "lblTESTVOTE",
+        "uknTESTVOTE"
+    ],
+    "Help": [
+        "lblPleasecarefullyread*"
+    ],
+    "Invalid Code": [
+        "lblPleaseconsultwithaboardmember."
+    ],
+    "Language Selection": [
+        "lblSelectyourpreferredlanguage"
+    ],
+    "MachineConfirmation": [
+        "lblConfigurationInformation"
+    ],
+    "Menu": [
+        "lblWelcomeMembers",
+        "lblWelcome*",
+        "uknChairman",
+        "lblPleasechooseyourusername"
+    ],
+    "Message": [
+        "uknRetry"
+    ],
+    "Null": [],
+    "Performance Testing Ballot Cast": [
+        "lbl1000votes"
+    ],
+    "Please insert BEI key": [
+        "lblPlease,insertBEIkey"
+    ],
+    "Printer diagnostic": [
+        "lblPrinterdiagnostic",
+        "lblPrinterdiagnosticwassuccessfullycompleted!",
+        "lblPrinterdiagnosticcouldnotbecompleted!"
+    ],
+    "RV_ActivationScreen": [
+        "lblNumberofvotescastalreadyequalsnumberofregisteredvoters"
+    ],
+    "Re-zero successful": [
+        "lblRe-zerohasbeencompletedsuccessfully",
+        "lblYouareabouttodelete*votes,areyousureofproceed?"
+    ],
+    "Re-zero unsuccessful": [
+        "lblErrorwhenattemptingtore-zeroresults"
+    ],
+    "Reports": [
+        "lblPrinterdiagnosticreportwassuccessfullycompleted!"
+    ],
+    "SecurityKeyRegistration": [
+        "lblSecuritykeyregistration"
+    ],
+    "Session Activation": [
+        "lblSessionActivation"
+    ],
+    "Shutdown": [
+        "lblPresstheOKbuttontoshutdownthesystem",
+        "lblThemachineinitializationhasfailed*",
+        "lblTheenvironmentisinaninvalidstate",
+        "lblPleasepresstheOKbuttontoshutdownthesystem",
+        "lblThemasterPINisincorrectorthestoragedeviceiscorruptedPleasetryagain",
+        "lblThedevicePINisincorrectorthestoragedeviceiscorruptedPleasetryagain",
+        "lblThevotingexperiencecannotbecompleted"
+    ],
+    "Signature Registration": [
+        "lblPressOKtoaddasignaturetotheelectionresultsNumberofsignatures*",
+        "*lblDoyouwanttoaddanothersignaturetotheelectionresults*"
+    ],
+    "StartupMachineInformation": [
+        "lblVCMinformation",
+        "lblWelcometotheGeneralElection"
+    ],
+    "Timeout voting screen": [
+        "lblThevotingexperienceislockedPleasecontactanadministrator"
+    ],
+    "Transmission Successful": [
+        "lblTheresulthasbeentransmitted"
+    ],
+    "USB ports": [
+        "lblUSBportscouldnotbecompleted!"
+    ],
+    "Update date and time": [
+        "lblUpdatedateandtime"
+    ],
+    "Vote verification screen": [
+        "lblPlease,insertballot"
+    ],
+    "Warning": [
+        "lblPleasechooseanothervotingdevicePINandtryagain"
+    ],
+    "WelcomeChairman": [
+        "lblWelcomeChairman"
+    ],
+    "eMMC Memory": [
+        "lbleMMCdiagnosticwassuccessfullycompleted!"
+    ]
+}

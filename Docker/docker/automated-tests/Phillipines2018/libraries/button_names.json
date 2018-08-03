@@ -1,0 +1,430 @@
+{
+    "0": {
+        "name": [
+            "lbl0",
+            "lbl01"
+        ]
+    },
+    "1": {
+        "name": [
+            "lbl11",
+            "lbl1"
+        ]
+    },
+    "2": {
+        "name": [
+            "lbl2"
+        ]
+    },
+    "3": {
+        "name": [
+            "lbl31",
+            "lbl3"
+        ]
+    },
+    "4": {
+        "name": [
+            "lbl41",
+            "lbl4"
+        ]
+    },
+    "5": {
+        "name": [
+            "lbl51",
+            "lbl5"
+        ]
+    },
+    "6": {
+        "name": [
+            "lbl6"
+        ]
+    },
+    "7": {
+        "name": [
+            "lbl71",
+            "lbl7"
+        ]
+    },
+    "8": {
+        "name": [
+            "lbl81",
+            "lbl8",
+            "lbl18"
+        ]
+    },
+    "9": {
+        "name": [
+            "lbl9"
+        ]
+    },
+    "Apply": {
+        "name": [
+            "uknApply"
+        ]
+    },
+    "Back": {
+        "name": [
+            "lblBack",
+            "uknBack"
+        ]
+    },
+    "Blank": {
+        "name": [
+            "lblBlank",
+            "uknBlank"
+        ]
+    },
+    "Back Arrow": {
+        "name": [
+            "ukn3"
+        ]
+    },
+    "BEI Chairman": {
+        "name": [
+            "uknBEIChairman",
+            "lblBEIChairman"
+        ]
+    },
+    "BEI member": {
+        "name": [
+            "uknBEImember"
+        ]
+    },
+    "BEI Poll Clerk": {
+        "name": [
+            "uknBEIPollClerk",
+            "uknPollclerk"
+        ]
+    },
+    "Cancel": {
+        "name": [
+            "uknCancel"
+        ]
+    },
+    "Chairman": {
+        "name": [
+            "lblChairman",
+            "uknChairman"
+        ]
+    },
+    "Confirm": {
+        "name": [
+            "lblConfirm",
+            "uknConfirm"
+        ]
+    },
+    "Vote": {
+        "name": [
+            "lblVote",
+            "uknVote"
+        ]
+    },
+    "Change System Date and Time": {
+        "name": [
+            "uknChangesystemdateandtime"
+        ]
+    },
+    "Close": {
+        "name": [
+            "pnlclose-button"
+        ]
+    },
+    "Close voting": {
+        "name": [
+            "lblClosevoting",
+            "uknClosevoting"
+        ]
+    },
+    "Close polls": {
+        "name": [
+            "uknClosePolls",
+            "uknClosepolls",
+            "lblClosepolls"
+        ]
+    },
+    "Pollworker": {
+        "name": [
+            "lblPollworker",
+            "uknPollworker"
+        ]
+    },
+    "Diagnostics": {
+        "name": [
+            "uknDiagnostics",
+            "lblDiagnostics"
+        ]
+    },
+    "Done": {
+        "name": [
+            "uknDone",
+            "lblDone"
+        ]
+    },
+    "Election": {
+        "name": [
+            "lblElection",
+            "uknElection"
+        ]
+    },
+    "Enter Pin Button": {
+        "name": [
+            "ico1",
+            "ico2",
+            "ukn2",
+            "ukn0",
+            "ukn1",
+            "ico0",
+            "ukn3",
+            "ukn4"
+        ]
+    },
+    "eMMCMemory": {
+        "name": [
+            "ukneMMCMemory"
+        ]
+    },
+    "Help": {
+        "name": [
+            "lblHelp"
+        ]
+    },
+    "Language": {
+        "name": [
+            "uknLanguage"
+        ]
+    },
+    "Members": {
+        "name": [
+            "lblMembers",
+            "uknMembers"
+        ]
+    },
+    "Menu": {
+        "name": [
+            "pnlmenu-button"
+        ]
+    },
+    "Next": {
+        "name": [
+            "uknNext"
+        ]
+    },
+    "No": {
+        "name": [
+            "uknNo",
+            "lblNo"
+        ]
+    },
+    "Ok": {
+        "name": [
+            "uknOk",
+            "lblOk",
+            "lblYes",
+            "uknYes"
+        ]
+    },
+    "Open voting": {
+        "name": [
+            "uknOpenvoting"
+        ]
+    },
+    "Open polls": {
+        "name": [
+            "uknOpenPolls",
+            "lblOpenpolls",
+            "uknOpenpolls"
+        ]
+    },
+    "Open": {
+        "name": [
+            "lblOpen",
+            "uknOpen"
+        ]
+    },
+    "Print": {
+        "name": [
+            "uknPrint"
+        ]
+    },
+    "Printer": {
+        "name": [
+            "uknPrinter",
+            "lblPrinter"
+        ]
+    },
+    "Print election returns report": {
+        "name": [
+            "uknPrintelectionreturnsreport"
+        ]
+    },
+    "Print statistical report": {
+        "name": [
+            "uknPrintstatisticalreport"
+        ]
+    },
+    "Print audit report": {
+        "name": [
+            "uknPrintauditreport"
+        ]
+    },
+    "Print Diagnostics Report": {
+        "name": [
+            "uknPrintdiagnosticsreport"
+        ]
+    },
+    "Print Audit Report": {
+        "name": [
+            "uknPrintauditreport"
+        ]
+    },
+    "Print Closed Polls Report": {
+        "name": [
+            "uknPrintClosedpollsreport"
+        ]
+    },
+    "Poll clerk": {
+        "name": [
+            "uknPollclerk"
+        ]
+    },
+    "Rezero": {
+        "name": [
+            "lblRezero",
+            "uknRezero"
+        ]
+    },
+    "Reopen polls": {
+        "name": [
+            "lblReopenpolls",
+            "uknReopenpolls"
+        ]
+    },
+    "Re-open": {
+        "name": [
+            "lblRe-openPolls",
+            "uknRe-openPolls"
+        ]
+    },
+    "Reports": {
+        "name": [
+            "lblReports",
+            "uknReports"
+        ]
+    },
+    "Run all diagnostics": {
+        "name": [
+            "uknRunalldiagnostics"
+        ]
+    },
+    "Result transmission": {
+        "name": [
+            "lblResulttransmission",
+            "uknResulttransmission"
+        ]
+    },
+    "Select all": {
+        "name": [
+            "uknSelectall"
+        ]
+    },
+    "Shutdown": {
+        "name": [
+            "lblShutdown",
+            "uknShutdown"
+        ]
+    },
+    "Skip": {
+        "name": [
+            "uknSkip"
+        ]
+    },
+    "Technician": {
+        "name": [
+            "lblTechnician",
+            "uknTechnician"
+        ]
+    },
+    "Transmit results": {
+        "name": [
+            "lblTransmitresults",
+            "uknTransmitresults"
+        ]
+    },
+    "Utilities": {
+        "name": [
+            "lblUtilities",
+            "uknUtilities"
+        ]
+    },
+    "USB ports": {
+        "name": [
+            "uknUSBports"
+        ]
+    },
+    "VCM Information": {
+        "name": [
+            "uknVCMinformation"
+        ]
+    },
+    "VCM diagnostic": {
+        "name": [
+            "uknVCMdiagnostic"
+        ]
+    },
+    "Voting Device Information": {
+        "name": [
+            "uknVotingdeviceinformation"
+        ]
+    },
+    "Write-protect data": {
+        "name": [
+            "lblWrite-protectdata",
+            "uknWrite-protectdata"
+        ]
+    },
+    "Yes": {
+        "name": [
+            "lblYes",
+            "uknYes"
+        ]
+    },
+    "Voting Officials": {
+        "name": [
+            "uknVotingOfficials"
+        ]
+    },
+    "Voting Official": {
+        "name": [
+            "uknVotingOfficial",
+            "lblVotingOfficial"
+        ]
+    },
+    "Manage polls": {
+        "name": [
+            "lblManagepolls",
+            "uknManagepolls"
+        ]
+    },
+    "System settings": {
+        "name": [
+            "lblSystemsettings",
+            "uknSystemsettings"
+        ]
+    },
+    "TEST VOTE": {
+        "name": [
+            "lblTESTVOTE",
+            "uknTESTVOTE"
+        ]
+    },
+    "OFFICIAL": {
+        "name": [
+            "lblOFFICIAL"
+        ]
+    },
+    "Cast Vote": {
+        "name": [
+            "lblCastvote"
+        ]
+    }
+}

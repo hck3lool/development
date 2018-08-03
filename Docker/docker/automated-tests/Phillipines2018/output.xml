@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180621 12:25:15.840" generator="Robot 3.0.4 (Python 2.7.6 on linux2)">
+<suite source="/home/at/workspace/Philippines2018" id="s1" name="Philippines2018">
+<suite source="/home/at/workspace/Philippines2018/cases" id="s1-s1" name="Cases">
+<suite source="/home/at/workspace/Philippines2018/cases/PCOS" id="s1-s1-s1" name="PCOS">
+<suite source="/home/at/workspace/Philippines2018/cases/PCOS/01__unblocks_keypad.robot" id="s1-s1-s1-s1" name="Unblocks Keypad">
+<test id="s1-s1-s1-s1-t1" name="User unblocks the keypad">
+<kw name="Given machine starts" library="given">
+<kw name="Start Process" library="Process">
+<doc>Starts a new process on background.</doc>
+<arguments>
+<arg>election</arg>
+<arg>-w</arg>
+<arg>800x480</arg>
+<arg>alias=election</arg>
+</arguments>
+<msg timestamp="20180621 12:25:17.520" level="INFO">Starting process:
+election -w 800x480</msg>
+<status status="PASS" endtime="20180621 12:25:17.526" starttime="20180621 12:25:17.518"></status>
+</kw>
+<status status="PASS" endtime="20180621 12:25:17.527" starttime="20180621 12:25:17.517"></status>
+</kw>
+<kw name="When user insert the correct pin in the keypad" library="when">
+<kw name="&quot;StartupMachineInformation&quot; screen should be shown" library="low_level">
+<kw name="Wait For Screen" library="application_windows.ApplicationWindow">
+<arguments>
+<arg>${screen}</arg>
+</arguments>
+<status status="PASS" endtime="20180621 12:25:35.013" starttime="20180621 12:25:17.531"></status>
+</kw>
+<status status="PASS" endtime="20180621 12:25:35.014" starttime="20180621 12:25:17.530"></status>
+</kw>
+<kw name="User press &quot;Menu&quot; button" library="low_level">
+<kw name="Press Button" library="application_windows.ApplicationWindow">
+<arguments>
+<arg>${button}</arg>
+</arguments>
+<status status="PASS" endtime="20180621 12:25:35.222" starttime="20180621 12:25:35.019"></status>
+</kw>
+<status status="PASS" endtime="20180621 12:25:35.223" starttime="20180621 12:25:35.014"></status>
+</kw>
+<kw name="&quot;Challenge&quot; screen should be shown" library="low_level">
+<kw name="Wait For Screen" library="application_windows.ApplicationWindow">
+<arguments>
+<arg>${screen}</arg>
+</arguments>
+<status status="PASS" endtime="20180621 12:25:35.494" starttime="20180621 12:25:35.225"></status>
+</kw>
+<status status="PASS" endtime="20180621 12:25:35.495" starttime="20180621 12:25:35.224"></status>
+</kw>
+<kw name="User insert pin &quot;${master_pin}&quot; in the keypad" library="low_level">
+<kw name="Insert Pin Number" library="application_windows.ApplicationWindow">
+<arguments>
+<arg>${pin}</arg>
+</arguments>
+<status status="PASS" endtime="20180621 12:25:36.800" starttime="20180621 12:25:35.497"></status>
+</kw>
+<status status="PASS" endtime="20180621 12:25:36.801" starttime="20180621 12:25:35.496"></status>
+</kw>
+<kw name="&quot;Challenge&quot; screen should be shown" library="low_level">
+<kw name="Wait For Screen" library="application_windows.ApplicationWindow">
+<arguments>
+<arg>${screen}</arg>
+</arguments>
+<status status="PASS" endtime="20180621 12:25:37.145" starttime="20180621 12:25:36.804"></status>
+</kw>
+<status status="PASS" endtime="20180621 12:25:37.146" starttime="20180621 12:25:36.802"></status>
+</kw>
+<status status="PASS" endtime="20180621 12:25:37.146" starttime="20180621 12:25:17.528"></status>
+</kw>
+<kw name="Then election closes" library="then">
+<kw name="Terminate Process" library="Process">
+<doc>Stops the process gracefully or forcefully.</doc>
+<arguments>
+<arg>election</arg>
+</arguments>
+<msg timestamp="20180621 12:25:37.151" level="INFO">Gracefully terminating process.</msg>
+<msg timestamp="20180621 12:25:37.453" level="INFO">Process completed.</msg>
+<status status="PASS" endtime="20180621 12:25:37.453" starttime="20180621 12:25:37.149"></status>
+</kw>
+<kw name="Terminate All Processes" library="Process">
+<doc>Terminates all still running processes started by this library.</doc>
+<arguments>
+<arg>kill=true</arg>
+</arguments>
+<status status="PASS" endtime="20180621 12:25:37.455" starttime="20180621 12:25:37.454"></status>
+</kw>
+<status status="PASS" endtime="20180621 12:25:37.455" starttime="20180621 12:25:37.147"></status>
+</kw>
+<status status="PASS" endtime="20180621 12:25:37.456" critical="yes" starttime="20180621 12:25:17.509"></status>
+</test>
+<doc>Example test case using the gherkin syntax.
+Concept Proof to integrate robot framework with PCOS Philippines</doc>
+<status status="PASS" endtime="20180621 12:25:37.457" starttime="20180621 12:25:17.050"></status>
+</suite>
+<status status="PASS" endtime="20180621 12:25:37.465" starttime="20180621 12:25:17.045"></status>
+</suite>
+<status status="PASS" endtime="20180621 12:25:37.469" starttime="20180621 12:25:17.040"></status>
+</suite>
+<status status="PASS" endtime="20180621 12:25:37.471" starttime="20180621 12:25:16.998"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Philippines2018" pass="1">Philippines2018</stat>
+<stat fail="0" id="s1-s1" name="Cases" pass="1">Philippines2018.Cases</stat>
+<stat fail="0" id="s1-s1-s1" name="PCOS" pass="1">Philippines2018.Cases.PCOS</stat>
+<stat fail="0" id="s1-s1-s1-s1" name="Unblocks Keypad" pass="1">Philippines2018.Cases.PCOS.Unblocks Keypad</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

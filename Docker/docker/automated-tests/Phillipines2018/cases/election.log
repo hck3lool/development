@@ -1,0 +1,53 @@
+2018-06-21T16:02:18+00:00|DEVEL|WARN |NA     |System         |00000000|Unable to find logger configuration file.
+2018-06-21T16:02:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing thread support.
+2018-06-21T16:02:18+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing election application.
+2018-06-21T16:02:18+00:00|DEVEL|INFO |NA     |System         |00000000|Application name: saes.election.
+2018-06-21T16:02:18+00:00|DEVEL|INFO |NA     |System         |00000000|Application version: 1.7.35.3971.
+2018-06-21T16:02:18+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework build version: 0.15.176.1443.
+2018-06-21T16:02:18+00:00|DEVEL|INFO |NA     |System         |00000000|SAES framework current version: 0.15.176.1443.
+2018-06-21T16:02:18+00:00|DEVEL|INFO |NA     |System         |00000000|SCM revision: 0.
+2018-06-21T16:02:18+00:00|DEVEL|INFO |NA     |System         |00000000|Locale: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_PA.UTF-8;LC_TIME=es_PA.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_PA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_PA.UTF-8;LC_NAME=es_PA.UTF-8;LC_ADDRESS=es_PA.UTF-8;LC_TELEPHONE=es_PA.UTF-8;LC_MEASUREMENT=es_PA.UTF-8;LC_IDENTIFICATION=es_PA.UTF-8.
+2018-06-21T16:02:18+00:00|DEVEL|INFO |NA     |System         |00000000|Resource directory: /usr/share/smartmatic.
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing GTK+...
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 0
+2018-06-21T16:02:19+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/main.css' was not found.
+2018-06-21T16:02:19+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/notification-area-widget.css' was not found.
+2018-06-21T16:02:19+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/custom-button-widget.css' was not found.
+2018-06-21T16:02:19+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/navigation-bar-widget.css' was not found.
+2018-06-21T16:02:19+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/application-window.css' was not found.
+2018-06-21T16:02:19+00:00|DEVEL|WARN |NA     |System         |00000000|Theme file '/usr/share/smartmatic/theme/common/election-window.css' was not found.
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting up workspace window...
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Starting main window...
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Setting windowed mode. width: 800. height: 480.
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Reloading theme... size: 1
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x26ea610).
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::SplashScreen' - '0x26ea610' - ''.
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Initializing plugin support.
+2018-06-21T16:02:19+00:00|DEVEL|INFO |NA     |System         |00000000|Cryptographic service: NullCryptographicService
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|SAES resources suffix: LC
+2018-06-21T16:02:19+00:00|AUDIT|INFO |NA     |System         |00000024|Main storage device: /dev/sdb1
+2018-06-21T16:02:19+00:00|AUDIT|INFO |NA     |System         |00000025|Redundant storage device: /dev/sdc1
+2018-06-21T16:02:19+00:00|DEVEL|DEBUG|NA     |System         |00000000|Obtaining storage device list.
+2018-06-21T16:02:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Available storage devices: 4
+2018-06-21T16:02:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda1' mounted at '/'
+2018-06-21T16:02:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda2' mounted at ''
+2018-06-21T16:02:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sda5' mounted at ''
+2018-06-21T16:02:20+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-21T16:02:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removable storage devices: 1
+2018-06-21T16:02:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Storage device '/dev/sdc1' mounted at '/media/at/PCOS2'
+2018-06-21T16:02:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|There are fewer storage devices than expected.
+2018-06-21T16:02:21+00:00|AUDIT|INFO |NA     |System         |00000028|Main storage mount path: /root/saes
+2018-06-21T16:02:21+00:00|AUDIT|INFO |NA     |System         |00000029|Redundant storage mount path: 
+2018-06-21T16:02:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Finishing external storage initialization.
+2018-06-21T16:02:21+00:00|DEVEL|ERROR|NA     |System         |00000000|There are fewer storage devices than expected.
+2018-06-21T16:02:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Message updated: No electoral configuration has been found
+2018-06-21T16:02:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen:  (0x7effe8111cd0).
+2018-06-21T16:02:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T16:02:21+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::MessageScreen' - '0x7effe8111cd0' - ''.
+2018-06-21T16:02:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Adding screen: Control panel (0x7effe80f6e18).
+2018-06-21T16:02:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing top screen.
+2018-06-21T16:02:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Showing screen: 'Saes::Gui::ButtonSelectionScreen' - '0x7effe80f6e18' - 'Control panel'.
+2018-06-21T16:02:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Closing screen: 0x7effe8111cd0 with response SCREEN_RESPONSE_OK.
+2018-06-21T16:02:24+00:00|DEVEL|DEBUG|NA     |System         |00000000|Removing screen: 'Saes::Gui::MessageScreen' - '0x7effe8111cd0' - ''.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins-configuration>
+  <module-imports>
+    <import name="../lib/smartmatic/fake-devices/libfake-devices.so"/>
+  </module-imports>
+  <links>
+    <slot name="/Devices/FakeSmartCardReader">
+      <plug name="fake-smartcard-reader"/>
+    </slot>
+  </links>
+</plugins-configuration>

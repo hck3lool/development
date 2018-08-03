@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+  <value name="cryptographic-service-provider">NullCryptographicService</value> <!-- NullCryptographicService, DefaultCryptographicService -->
+  <value name="verify-signatures">true</value>
+  <value name="ignore-self-signed-certificate-in-chain">true</value>
+  <value name="verify-server-common-name">true</value>
+</preferences>

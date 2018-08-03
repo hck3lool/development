@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins-configuration>
+  <module-imports>
+    <import name="../lib/smartmatic/system-hash-initializer/libsystem-hash-initializer.so"/>
+  </module-imports>
+  <links>
+    <!--slot name="/Initializers">
+      <plug name="system-hash-initializer"/>
+    </slot-->
+  </links>
+</plugins-configuration>

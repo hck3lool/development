@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences name="storage">
+
+  <preferences name="content-partitions">
+    <value name="main">/dev/sdb1</value>
+    <value name="redundant">/dev/sdc1</value>
+  </preferences>
+
+  <value-list name="internal-partitions">
+    <item>/dev/sda1</item>
+    <item>/dev/sda2</item>
+    <item>/dev/sda3</item>
+    <item>/dev/sda5</item>
+    <item>/dev/sda6</item>
+    <item>/dev/sda7</item>
+  </value-list>
+
+  <value-list name="external-partitions">
+    <item>/dev/sdb1</item>
+    <item>/dev/sdc1</item>
+  </value-list>
+
+</preferences>
