@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block head %} {% endblock %} {% block body %}
+<div class="contenedor">
+    <h1 align="center">Actualizar Inventario</h1>
+
+    <div class="form">
+        <form action="/actualizar/{{task.id}}" method="POST">
+            <input type='text' name='tarea' id='tarea' value='{{task.tarea}}'>
+            <input type='submit' value='Actualizar Tarea'>
+        </form>
+    </div>
+</div>
+{% endblock %}

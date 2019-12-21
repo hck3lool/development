@@ -1,0 +1,39 @@
+{% extends 'base.html' %} {% block head %} {% endblock %} {% block body %}
+<div class="contenedor">
+    <div class="w3-container w3-lobster">
+        <p class="w3-xxxlarge" align="center">Inventario</p>
+    </div>
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Fecha de ingreso</th>
+            <th>Eliminar Producto</th>
+            <th>Actualizar Producto</th>
+        </tr>
+        {%for item in tareas%}
+        <tr>
+            <td>{{item.tarea}}</td>
+            <td>{{item.fecha.date()}}</td>
+            <td>
+                <div class="w3-container">
+                    <a href="/borrar/{{item.id}}" class="w3-button w3-grey">Eliminar</a>
+                </div>
+            </td>
+            <td>
+                <div class="w3-container">
+                    <a href="/actualizar/{{item.id}}" class="w3-button w3-cyan">Actualizar</a>
+                </div>
+            </td>
+        </tr>
+        {%endfor%}
+    </table>
+
+    <div class="form">
+        <form action="/" method="POST">
+            <input type='text' name='tarea' id='tarea'>
+            <br>
+            <input type='submit' value='Agregar Producto'>
+        </form>
+    </div>
+</div>
+{% endblock %}
