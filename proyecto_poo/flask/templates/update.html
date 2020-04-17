@@ -1,0 +1,42 @@
+{% extends 'base.html' %} {% block head %} {% endblock %} {% block body %}
+<div class="contenedor">
+    <div class="w3-container w3-lobster">
+        <p class="w3-xxxlarge" align="center">Actualizar Datos</p>
+    </div>
+    <div class="form" align="center">
+        <form action="/actualizar/{{task.id}}" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text" name='nombre' id='nombre' value='{{task.nombre}}'> &nbsp;&nbsp;
+            <label for="edad">Edad</label>
+            <input type="text" name='edad' id='edad' size="2" value='{{task.edad}}'> &nbsp;&nbsp;
+            <label for="sexo">Sexo</label>
+            <select id="sexo" name="sexo">
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+            </select>
+            &nbsp;&nbsp;
+            <label for="nacionalidad">Nacionalidad</label>
+            <select id="nacionalidad" name="nacionalidad">
+                <option value="Panameño(a)">Panameño(a)</option>
+                <option value="Extranjero(a)">Extranjero(a)</option>
+            </select>
+            &nbsp;&nbsp;
+            <label for="provincia">Residencia</label>
+            <select id="provincia" name="provincia">
+                <option value="Bocas del toro">Bocas del toro</option>
+                <option value="Chiriqui">Chiriqui</option>
+                <option value="Cocle">Cocle</option>
+                <option value="Colon">Colon</option>
+                <option value="Darien">Darien</option>
+                <option value="Herrera">Herrera</option>
+                <option value="Los santos">Los santos</option>
+                <option value="Panama">Panama</option>
+                <option value="Veraguas">Veraguas</option>
+                <option value="Panama oeste">Panama oeste</option>
+            </select>
+            &nbsp;&nbsp;
+            <input type='submit' value='Actualizar datos'>
+        </form>
+    </div>
+</div>
+{% endblock %}

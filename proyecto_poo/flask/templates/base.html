@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Rafael Hernandez">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <style>
+        .w3-lobster {
+            font-family: "Lobster", serif;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        .form {
+            margin-top: 20px;
+        }
+        
+        input[type=text],
+        select {
+            width: auto;
+            padding: 10px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 1px;
+            box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+            width: 200px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 1px;
+            cursor: pointer;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        
+        td {
+            border: 1px solid black;
+            width: 200px;
+            border: 1px solid #ddd;
+            background-color: white;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    {% block body %}{% endblock %}
+</body>
+
+</html>

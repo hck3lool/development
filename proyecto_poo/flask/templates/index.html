@@ -1,0 +1,79 @@
+{% extends 'base.html' %} {% block head %} {% endblock %} {% block body %}
+<div class="contenedor">
+    <div class="w3-container w3-lobster">
+        <p class="w3-xxxlarge" align="center">Registro estadístico poblacional de Panamá 2020</p>
+    </div>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Sexo</th>
+            <th>Nacionalidad</th>
+            <th>Residencia</th>
+            <th>Fecha de registro</th>
+            <th>Eliminar registro</th>
+            <th>Actualizar datos</th>
+        </tr>
+        {%for item in datos%}
+        <tr>
+            <td>{{item.nombre}}</td>
+            <td>{{item.edad}}</td>
+            <td>{{item.sexo}}</td>
+            <td>{{item.nacionalidad}}</td>
+            <td>{{item.provincia}}</td>
+            <td>{{item.fecha.date()}}</td>
+            <td>
+                <div class="w3-container">
+                    <a href="/borrar/{{item.id}}" class="w3-button w3-grey">Eliminar</a>
+                </div>
+            </td>
+            <td>
+                <div class="w3-container">
+                    <a href="/actualizar/{{item.id}}" class="w3-button w3-cyan">Actualizar</a>
+                </div>
+            </td>
+        </tr>
+        {%endfor%}
+    </table>
+    <br>
+    <br>
+    <br>
+
+    <div class="form">
+        <form action="/" method="POST" align='center'>
+            <label for="nombre">Nombre</label>
+            <input type="text" name='nombre' id='nombre'> &nbsp;&nbsp;
+            <label for="edad">Edad</label>
+            <input type="text" name='edad' id='edad' size="2"> &nbsp;&nbsp;
+            <label for="sexo">Sexo</label>
+            <select id="sexo" name="sexo">
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+            </select>
+            &nbsp;&nbsp;
+            <label for="nacionalidad">Nacionalidad</label>
+            <select id="nacionalidad" name="nacionalidad">
+                <option value="Panameño(a)">Panameño(a)</option>
+                <option value="Extranjero(a)">Extranjero(a)</option>
+            </select>
+            &nbsp;&nbsp;
+            <label for="provincia">Residencia</label>
+            <select id="provincia" name="provincia">
+                <option value="Bocas del toro">Bocas del toro</option>
+                <option value="Chiriqui">Chiriqui</option>
+                <option value="Cocle">Cocle</option>
+                <option value="Colon">Colon</option>
+                <option value="Darien">Darien</option>
+                <option value="Herrera">Herrera</option>
+                <option value="Los santos">Los santos</option>
+                <option value="Panama">Panama</option>
+                <option value="Veraguas">Veraguas</option>
+                <option value="Panama oeste">Panama oeste</option>
+            </select>
+            &nbsp;&nbsp;
+            <input type='submit' value='Agregar datos'>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
